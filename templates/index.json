@@ -241,8 +241,8 @@
     "162851327248fc219d": {
       "type": "background-img",
       "settings": {
-        "color_scheme": "background-2",
-        "image": "shopify:\/\/shop_images\/chocolate-truffles.jpg",
+        "color_scheme": "accent-2",
+        "image": "shopify:\/\/shop_images\/vide_image.jpg",
         "full_width": true
       }
     }
