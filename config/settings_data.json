@@ -1,6 +1,7 @@
 {
   "current": {
     "page_width": "1600",
+    "currency_code_enabled": true,
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
