@@ -54,19 +54,19 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "Our Story"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>In 2007, at the edge of a misty forest on the tiny Maine island of Isle au Haut, our chocolate company twinkled into existence.<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Read More",
             "button_link": ""
           }
         }
@@ -77,8 +77,9 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/steve_kate_large_46b5643f-0bd0-45d1-b08e-82ba98f7c702.jpg",
         "height": "adapt",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "layout": "image_first"
       }
     },
