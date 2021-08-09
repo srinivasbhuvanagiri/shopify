@@ -159,6 +159,47 @@
         "image_padding": false,
         "show_view_all": false
       }
+    },
+    "1628504186cb60c406": {
+      "type": "collage",
+      "blocks": {
+        "1628504186cb60c406-0": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify:\/\/shop_images\/vide_image.jpg",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video for customers using screen readers",
+            "image_padding": false
+          }
+        },
+        "1628504186cb60c406-1": {
+          "type": "product",
+          "settings": {
+            "product": "smores-camp-kit-classic-1",
+            "secondary_background": false,
+            "second_image": true,
+            "image_padding": false
+          }
+        },
+        "1628504186cb60c406-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "chocolate-truffles",
+            "image_padding": false,
+            "color_scheme": "background-2"
+          }
+        }
+      },
+      "block_order": [
+        "1628504186cb60c406-0",
+        "1628504186cb60c406-1",
+        "1628504186cb60c406-2"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
     }
   },
   "order": [
@@ -166,6 +207,7 @@
     "featured_products",
     "image_text",
     "1628502841fe36445c",
-    "162850293066fc421f"
+    "162850293066fc421f",
+    "1628504186cb60c406"
   ]
 }
