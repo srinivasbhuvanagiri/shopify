@@ -172,6 +172,14 @@
             "image_padding": false
           }
         },
+        "1628504186cb60c406-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "chocolate-truffles",
+            "image_padding": false,
+            "color_scheme": "background-2"
+          }
+        },
         "1628504186cb60c406-1": {
           "type": "product",
           "settings": {
@@ -180,20 +188,12 @@
             "second_image": true,
             "image_padding": false
           }
-        },
-        "1628504186cb60c406-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "chocolate-truffles",
-            "image_padding": false,
-            "color_scheme": "background-2"
-          }
         }
       },
       "block_order": [
         "1628504186cb60c406-0",
-        "1628504186cb60c406-1",
-        "1628504186cb60c406-2"
+        "1628504186cb60c406-2",
+        "1628504186cb60c406-1"
       ],
       "settings": {
         "heading": "Make Easy Chocolate Truffles with Kate Shaffer",
