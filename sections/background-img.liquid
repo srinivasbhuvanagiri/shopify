@@ -5,7 +5,7 @@
 <noscript>{{ 'section-background-img.css' | asset_url | stylesheet_tag }}</noscript> -->
  
 <div class="background-img {% if section.settings.full_width %} background-img--full-width{% endif%} color-{{ section.settings.color_scheme }}">
-	{%- if sections.background-img.settings.image != blank -%}
+<!-- 	{%- if sections.background-img.settings.image != blank -%} -->
   		<div class="background-img-on">
   			<img src="{{ section.settings.image | img_url: '1500x' }}"        
                 loading="lazy"
@@ -13,7 +13,7 @@
         		width="{{ section.settings.image.width }}"
         		height="{{ section.settings.image.width | divided_by: section.settings.image.aspect_ratio }}">
   		</div>
-    {%- endif -%}
+<!--     {%- endif -%} -->
 </div>
 
 {% schema %}
