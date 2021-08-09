@@ -1610,6 +1610,9 @@
           },
           "label": "Color scheme"
         },
+        "image": {
+          "label": "Background Image"
+        },
         "full_width": {
           "label": "Make section full width"
         }
