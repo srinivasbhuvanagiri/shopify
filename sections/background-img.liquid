@@ -1,8 +1,12 @@
 <link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'section-rich-text.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'section-background-img.css' | asset_url }}" media="print" onload="this.media='all'">
 
-<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'section-rich-text.css' | asset_url | stylesheet_tag }}</noscript>
+<!-- <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'section-background-img.css' | asset_url | stylesheet_tag }}</noscript> -->
+ 
+<div class="background-img {% if section.settings.full_width %} background-img--full-width{% endif%} color-{{ section.settings.color_scheme }}">
+</div>
+
 {% schema %}
   {
     "name": "t:sections.background-img.name",
@@ -15,33 +19,33 @@
       		"options": [
         		{
           			"value": "accent-1",
-          			"label": "t:sections.rich-text.settings.color_scheme.options__1.label"
+          			"label": "t:sections.background-img.settings.color_scheme.options__1.label"
         		},
         		{
           			"value": "accent-2",
-          			"label": "t:sections.rich-text.settings.color_scheme.options__2.label"
+          			"label": "t:sections.background-img.settings.color_scheme.options__2.label"
         		},
         		{
           			"value": "background-1",
-          			"label": "t:sections.rich-text.settings.color_scheme.options__3.label"
+          			"label": "t:sections.background-img.settings.color_scheme.options__3.label"
         		},
         		{
           			"value": "background-2",
-          			"label": "t:sections.rich-text.settings.color_scheme.options__4.label"
+          			"label": "t:sections.background-img.settings.color_scheme.options__4.label"
         		},
         		{
           			"value": "inverse",
-          			"label": "t:sections.rich-text.settings.color_scheme.options__5.label"
+          			"label": "t:sections.background-img.settings.color_scheme.options__5.label"
         		}
       		],
       		"default": "background-1",
-      		"label": "t:sections.rich-text.settings.color_scheme.label"
+      		"label": "t:sections.background-img.settings.color_scheme.label"
     	},
 		{
       		"type": "checkbox",
       		"id": "full_width",
       		"default": true,
-      		"label": "t:sections.rich-text.settings.full_width.label"
+      		"label": "t:sections.background-img.settings.full_width.label"
     	}	
 	]
   }
