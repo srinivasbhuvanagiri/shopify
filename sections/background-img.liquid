@@ -21,8 +21,8 @@
             alt="{{ section.settings.image.alt | escape }}"
             loading="lazy"
             width="{{ section.settings.image.width }}"
-            height="{{ section.settings.image.height }}" -->
-          >
+            height="{{ section.settings.image.height }}"
+          >-->
         {%- else -%}
           {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {%- endif -%}
