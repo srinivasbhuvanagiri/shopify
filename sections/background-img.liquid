@@ -6,8 +6,10 @@
  
 <div class="background-img {% if section.settings.full_width %} background-img--full-width{% endif%} color-{{ section.settings.color_scheme }}">
   		<div class="background-img-on">
+         
   			{%- if section.settings.image != blank -%}
-          <img
+          	 <img src = "{{section.settings.image}}">
+        <!--  <img
             srcset="{%- if section.settings.image.width >= 165 -%}{{ section.settings.image | img_url: '165x' }} 165w,{%- endif -%}
               {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | img_url: '360x' }} 360w,{%- endif -%}
               {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | img_url: '535x' }} 535w,{%- endif -%}
@@ -19,7 +21,7 @@
             alt="{{ section.settings.image.alt | escape }}"
             loading="lazy"
             width="{{ section.settings.image.width }}"
-            height="{{ section.settings.image.height }}"
+            height="{{ section.settings.image.height }}" -->
           >
         {%- else -%}
           {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
