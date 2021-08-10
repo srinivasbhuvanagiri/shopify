@@ -218,7 +218,7 @@
         "color_scheme": "accent-2",
         "image": "shopify:\/\/shop_images\/vide_image.jpg",
         "full_width": true,
-        "caption": "Welcome"
+        "caption": "Welcomee"
       }
     },
     "16285061351683b498": {
@@ -255,15 +255,6 @@
         "color_scheme": "background-2",
         "full_width": true
       }
-    },
-    "1628573341e88cc814": {
-      "type": "background-img",
-      "settings": {
-        "color_scheme": "background-1",
-        "image": "shopify:\/\/shop_images\/vide_image.jpg",
-        "full_width": true,
-        "caption": "chocolates"
-      }
     }
   },
   "order": [
@@ -274,7 +265,6 @@
     "162850293066fc421f",
     "1628504186cb60c406",
     "162851327248fc219d",
-    "16285061351683b498",
-    "1628573341e88cc814"
+    "16285061351683b498"
   ]
 }
