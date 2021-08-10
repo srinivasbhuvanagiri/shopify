@@ -1615,6 +1615,9 @@
         },
         "full_width": {
           "label": "Make section full width"
+        },
+        "caption": {
+          "label": "Caption"
         }
       }
     },
