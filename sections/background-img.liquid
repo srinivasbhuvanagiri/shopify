@@ -8,9 +8,9 @@
   		<div class="background-img-on"> 
   		{%- if section.settings.image != blank -%}
           	 <img src = "{{section.settings.image | img_url: '1500x'}}">
-       		{%- if section.setting.caption != blank -%}
+       		{%- if section.setting.caption -%}
           		<div class="b-caption">{{section.setting.caption}}</div>
-          	{%-endif-%}
+          	{%- endif -%}
         	{%- else -%}
           		{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {%- endif -%}
