@@ -30,7 +30,7 @@
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
+        "adapt_height_first_image": true
       }
     },
     "featured_products": {
@@ -39,13 +39,13 @@
         "title": "Featured products",
         "collection": "frontpage",
         "products_to_show": 8,
-        "show_view_all": true,
+        "show_view_all": false,
         "swipe_on_mobile": true,
         "image_ratio": "square",
         "show_secondary_image": false,
-        "add_image_padding": true,
+        "add_image_padding": false,
         "show_image_outline": true,
-        "show_vendor": false
+        "show_vendor": true
       }
     },
     "image_text": {
@@ -54,19 +54,19 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "Our Story"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>In 2007, at the edge of a misty forest on the tiny Maine island of Isle au Haut, our chocolate company twinkled into existence. For eight years, Kate Shaffer made exquisite confections in her home kitchen..<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Read More",
             "button_link": ""
           }
         }
@@ -77,15 +77,204 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/steve_kate_large_46b5643f-0bd0-45d1-b08e-82ba98f7c702.jpg",
         "height": "adapt",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "layout": "image_first"
+      }
+    },
+    "1628502841fe36445c": {
+      "type": "multicolumn",
+      "blocks": {
+        "1628502841fe36445c-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/steve_kate_large_46b5643f-0bd0-45d1-b08e-82ba98f7c702.jpg",
+            "title": "",
+            "text": ""
+          }
+        },
+        "1628502841fe36445c-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1628502841fe36445c-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "72c68595-0774-430e-ba7d-52a64f24b5f4": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1628502841fe36445c-0",
+        "1628502841fe36445c-1",
+        "1628502841fe36445c-2",
+        "72c68595-0774-430e-ba7d-52a64f24b5f4"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "162850293066fc421f": {
+      "type": "collection-list",
+      "blocks": {
+        "162850293066fc421f-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chocolate-truffles"
+          }
+        },
+        "162850293066fc421f-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "2021-summer"
+          }
+        },
+        "162850293066fc421f-2": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "162850293066fc421f-0",
+        "162850293066fc421f-1",
+        "162850293066fc421f-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_ratio": "adapt",
+        "color_scheme": "background-2",
+        "swipe_on_mobile": true,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
+    "1628504186cb60c406": {
+      "type": "collage",
+      "blocks": {
+        "1628504186cb60c406-0": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify:\/\/shop_images\/vide_image.jpg",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video for customers using screen readers",
+            "image_padding": false
+          }
+        },
+        "1628504186cb60c406-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "chocolate-truffles",
+            "image_padding": false,
+            "color_scheme": "background-2"
+          }
+        },
+        "1628504186cb60c406-1": {
+          "type": "product",
+          "settings": {
+            "product": "smores-camp-kit-classic-1",
+            "secondary_background": false,
+            "second_image": true,
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "1628504186cb60c406-0",
+        "1628504186cb60c406-2",
+        "1628504186cb60c406-1"
+      ],
+      "settings": {
+        "heading": "Make Easy Chocolate Truffles with Kate Shaffer",
+        "desktop_layout": "left",
+        "mobile_layout": "column"
+      }
+    },
+    "162851327248fc219d": {
+      "type": "background-img",
+      "settings": {
+        "color_scheme": "accent-2",
+        "image": "shopify:\/\/shop_images\/vide_image.jpg",
+        "full_width": true,
+        "caption": "Welcome"
+      }
+    },
+    "16285061351683b498": {
+      "type": "rich-texts",
+      "blocks": {
+        "16285061351683b498-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "16285061351683b498-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16285061351683b498-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16285061351683b498-0",
+        "16285061351683b498-1",
+        "16285061351683b498-2"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true
+      }
+    },
+    "1628573341e88cc814": {
+      "type": "background-img",
+      "settings": {
+        "color_scheme": "background-1",
+        "image": "shopify:\/\/shop_images\/vide_image.jpg",
+        "full_width": true,
+        "caption": "chocolates"
       }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
-    "image_text"
+    "image_text",
+    "1628502841fe36445c",
+    "162850293066fc421f",
+    "1628504186cb60c406",
+    "162851327248fc219d",
+    "16285061351683b498",
+    "1628573341e88cc814"
   ]
 }
