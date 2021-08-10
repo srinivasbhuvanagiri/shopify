@@ -4,6 +4,7 @@
   text-align: center;
   /* 1.5rem margin on left & right */
   width: calc(100% - 3rem);
+  position:relative;
 }
 
 .background-img.background-img--full-width {
@@ -13,4 +14,10 @@
 .background-img-on img{
 	max-width:100%;
   	width:100%;
+}
+.background-img-on .b-caption{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);	
 }
