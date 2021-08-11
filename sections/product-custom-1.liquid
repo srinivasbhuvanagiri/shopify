@@ -90,10 +90,10 @@
                 <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                 {{ form | payment_terms }}
                 <div>
-                  <label>Gift Options</label><br>
-                  <input required type=”radio” name=”giftbox1” value=”No Gift Tag″> <span>No Gift Tag</span><br>
-                  <input required type=”radio” name=”giftbox2” value=”Gift Tag (Limited Text) Free″> <span>Gift Tag (Limited Text) Free</span><br>
-                  <input required type=”radio” name=”giftbox3” value=”Gift Scroll (Unlimited Text) $4.00″> <span>Gift Scroll (Unlimited Text) $4.00</span><br>
+                  <h5>Gift Options</h5><br>
+                  <input required type=”radio” name=”giftbox1” value=”No Gift Tag″> <label for="No Gift Tag">No Gift Tag</label><br>
+                  <input required type=”radio” name=”giftbox2” value=”Gift Tag (Limited Text) Free″> <label for="Gift Tag (Limited Text) Free">Gift Tag (Limited Text) Free</label><br>
+                  <input required type=”radio” name=”giftbox3” value=”Gift Scroll (Unlimited Text) $4.00″> <label for="Gift Scroll (Unlimited Text) $4.00">Gift Scroll (Unlimited Text) $4.00</label><br>
                 </div>
               {%- endform -%}
             </div>
