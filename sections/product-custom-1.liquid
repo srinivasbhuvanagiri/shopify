@@ -263,14 +263,13 @@
                 {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
                   <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                   <div class="product-form__buttons">
-                    <div>
-                  <h5>Gift Options</h5><br>
-                  <input required type=”radio” name=”properties[Select an Select]” value=”Selected 1″> <span>Select 1</span><br>
-
-<input required type=”radio” name=”properties[Select an Select]” value=”Selected 2″> <span>Select 2</span><br>
-
-<input required type=”radio” name=”properties[Select an Select]” value=”Selected 3″> <span>Select 3</span><br>
-                </div>
+                    
+                   <div>
+                  	<h5>Gift Options</h5><br>
+                  	<input required type=”radio” name=”properties[Select an Select]” value=”Selected 1″> <span>Select 1</span><br>
+					<input required type=”radio” name=”properties[Select an Select]” value=”Selected 2″> <span>Select 2</span><br>
+					<input required type=”radio” name=”properties[Select an Select]” value=”Selected 3″> <span>Select 3</span><br>
+                  </div>
                     
                     <button
                       type="submit"
