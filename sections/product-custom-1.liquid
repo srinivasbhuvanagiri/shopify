@@ -417,7 +417,7 @@
   {%- endfor -%}
 </section>
 
-<!-- {% javascript %}
+{% javascript %}
   class ProductModal extends ModalDialog {
     constructor() {
       super();
@@ -448,7 +448,7 @@
   }
 
   customElements.define('product-modal', ProductModal);
-{% endjavascript %} -->
+{% endjavascript %}
 
 {%- if first_3d_model -%}
   <script type="application/json" id="ProductJSON-{{ product.id }}">
