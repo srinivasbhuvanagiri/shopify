@@ -89,12 +89,7 @@
               {%- form 'product', product, id: 'product-form-installment', class: 'installment caption-large' -%}
                 <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                 {{ form | payment_terms }}
-                <div>
-                  <h5>Gift Options</h5><br>
-                  <input required type=”radio” name=”giftbox1” value=”No Gift Tag″> <label for="No Gift Tag">No Gift Tag</label><br>
-                  <input required type=”radio” name=”giftbox2” value=”Gift Tag (Limited Text) Free″> <label for="Gift Tag (Limited Text) Free">Gift Tag (Limited Text) Free</label><br>
-                  <input required type=”radio” name=”giftbox3” value=”Gift Scroll (Unlimited Text) $4.00″> <label for="Gift Scroll (Unlimited Text) $4.00">Gift Scroll (Unlimited Text) $4.00</label><br>
-                </div>
+                
               {%- endform -%}
             </div>
           {%- when 'description' -%}
@@ -268,6 +263,13 @@
                 {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
                   <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                   <div class="product-form__buttons">
+                    <div>
+                  <h5>Gift Options</h5><br>
+                  <input required type=”radio” name=”giftbox1” value=”No Gift Tag″> <label for="No Gift Tag">No Gift Tag</label><br>
+                  <input required type=”radio” name=”giftbox2” value=”Gift Tag (Limited Text) Free″> <label for="Gift Tag (Limited Text) Free">Gift Tag (Limited Text) Free</label><br>
+                  <input required type=”radio” name=”giftbox3” value=”Gift Scroll (Unlimited Text) $4.00″> <label for="Gift Scroll (Unlimited Text) $4.00">Gift Scroll (Unlimited Text) $4.00</label><br>
+                </div>
+                    
                     <button
                       type="submit"
                       name="add"
