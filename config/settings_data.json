@@ -56,6 +56,77 @@
           "enable_language_selector": true,
           "payment_enable": true
         }
+      },
+      "product-custom-1": {
+        "type": "product-custom-1",
+        "blocks": {
+          "fb2e1b31-0465-4a93-b590-5ef599185220": {
+            "type": "text",
+            "settings": {
+              "text": "",
+              "text_style": "uppercase"
+            }
+          },
+          "4d90ce2d-ed38-439d-a316-db69d870c4a5": {
+            "type": "title",
+            "settings": {
+            }
+          },
+          "cd04fb4d-bc6d-4efd-bc65-b3c85ab87a3e": {
+            "type": "text",
+            "settings": {
+              "text": "Text block",
+              "text_style": "subtitle"
+            }
+          },
+          "55392be4-5799-4702-9bf7-9ee6cb4f7cb0": {
+            "type": "price",
+            "settings": {
+            }
+          },
+          "229798a2-0714-405e-98ee-da244cf7abaf": {
+            "type": "variant_picker",
+            "settings": {
+              "picker_type": "button"
+            }
+          },
+          "5422947f-e07a-4a56-8585-f4ac26974050": {
+            "type": "quantity_selector",
+            "settings": {
+            }
+          },
+          "2ab6aaa4-277f-42a1-b55f-d52b13410931": {
+            "type": "buy_buttons",
+            "settings": {
+              "show_dynamic_checkout": true
+            }
+          },
+          "f8297311-738e-4ff3-887c-4d721ab2d224": {
+            "type": "description",
+            "settings": {
+            }
+          },
+          "1dbd51ba-826d-49e9-9171-2732ac377efc": {
+            "type": "share",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "fb2e1b31-0465-4a93-b590-5ef599185220",
+          "4d90ce2d-ed38-439d-a316-db69d870c4a5",
+          "cd04fb4d-bc6d-4efd-bc65-b3c85ab87a3e",
+          "55392be4-5799-4702-9bf7-9ee6cb4f7cb0",
+          "229798a2-0714-405e-98ee-da244cf7abaf",
+          "5422947f-e07a-4a56-8585-f4ac26974050",
+          "2ab6aaa4-277f-42a1-b55f-d52b13410931",
+          "f8297311-738e-4ff3-887c-4d721ab2d224",
+          "1dbd51ba-826d-49e9-9171-2732ac377efc"
+        ],
+        "settings": {
+          "enable_sticky_info": true,
+          "enable_video_looping": false
+        }
       }
     },
     "content_for_index": [
