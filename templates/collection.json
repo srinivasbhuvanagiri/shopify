@@ -20,17 +20,10 @@
         "enable_sorting": true,
         "collapse_on_larger_devices": false
       }
-    },
-    "1628768261d5c4ddfd": {
-      "type": "page",
-      "settings": {
-        "page": "about-us"
-      }
     }
   },
   "order": [
     "banner",
-    "product-grid",
-    "1628768261d5c4ddfd"
+    "product-grid"
   ]
 }
