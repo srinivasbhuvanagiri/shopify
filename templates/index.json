@@ -335,7 +335,7 @@
       "settings": {
         "color_scheme": "accent-2",
         "image": "shopify:\/\/shop_images\/vide_image.jpg",
-        "full_width": true,
+        "full_width": false,
         "caption": "Welcomee"
       }
     },
@@ -373,15 +373,6 @@
         "color_scheme": "background-2",
         "full_width": true
       }
-    },
-    "162859349647430c39": {
-      "type": "background-img",
-      "settings": {
-        "color_scheme": "accent-1",
-        "image": "shopify:\/\/shop_images\/vide_image.jpg",
-        "full_width": true,
-        "caption": "welcomee"
-      }
     }
   },
   "order": [
@@ -395,7 +386,6 @@
     "16287527507608d13e",
     "1628504186cb60c406",
     "162851327248fc219d",
-    "16285061351683b498",
-    "162859349647430c39"
+    "16285061351683b498"
   ]
 }
