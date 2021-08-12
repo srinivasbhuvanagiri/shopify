@@ -1,7 +1,7 @@
 .cgt-desc{
   display:flex;
 }
-.cgt-desc .tab{
+.cgt-desc ul{
    display: block;
     list-style-type: none;
     padding: 0;
