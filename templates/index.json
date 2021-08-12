@@ -42,6 +42,7 @@
     },
     "featured_products": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured products",
         "collection": "frontpage",
@@ -92,6 +93,7 @@
     },
     "1628502841fe36445c": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "1628502841fe36445c-0": {
           "type": "column",
