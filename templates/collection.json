@@ -1,14 +1,73 @@
 {
   "sections": {
     "banner": {
-      "type": "main-collection-banner"
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true
+      }
     },
     "product-grid": {
-      "type": "main-collection-product-grid"
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false
+      }
+    },
+    "1628753269f5ef7b58": {
+      "type": "image-banner",
+      "blocks": {
+        "1628753269f5ef7b58-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner"
+          }
+        },
+        "1628753269f5ef7b58-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "1628753269f5ef7b58-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1628753269f5ef7b58-0",
+        "1628753269f5ef7b58-1",
+        "1628753269f5ef7b58-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/chocolate-truffles.jpg",
+        "desktop_text_box_position": "flex-end",
+        "color_scheme": "background-2",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": true
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "1628753269f5ef7b58"
   ]
 }
