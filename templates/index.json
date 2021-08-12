@@ -9,6 +9,12 @@
             "heading": "Talk about your branding"
           }
         },
+        "aa0716c2-2f10-4339-af84-c86897d44919": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
         "button": {
           "type": "buttons",
           "settings": {
@@ -23,6 +29,7 @@
       },
       "block_order": [
         "heading",
+        "aa0716c2-2f10-4339-af84-c86897d44919",
         "button"
       ],
       "settings": {
