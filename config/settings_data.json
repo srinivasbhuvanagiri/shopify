@@ -31,8 +31,8 @@
           "logo_width": 250,
           "logo_position": "top-left",
           "menu": "main-menu",
-          "show_line_separator": false,
-          "enable_sticky_header": false
+          "show_line_separator": true,
+          "enable_sticky_header": true
         }
       },
       "footer": {
