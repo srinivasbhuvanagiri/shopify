@@ -6,10 +6,10 @@
     list-style-type: none;
     padding: 0;
 }
-.cgt-desc .tab li{
+.cgt-desc .tab li a{
   text-decoration:none;
   color:black;
 }
-.cgt-desc .tab li .active{
+.cgt-desc .tab li a.active{
 	color:green;
 }
