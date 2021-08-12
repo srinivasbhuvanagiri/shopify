@@ -26,7 +26,8 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/My_Post.png",
+        "image": "shopify:\/\/shop_images\/a-barista-smiles-proudly-stood-in-her-cafe.jpg",
+        "image_2": "shopify:\/\/shop_images\/steve_kate_large_46b5643f-0bd0-45d1-b08e-82ba98f7c702.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
