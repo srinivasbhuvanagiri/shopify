@@ -313,16 +313,16 @@
         "1628504186cb60c406-2": {
           "type": "collection",
           "settings": {
-            "collection": "chocolate-truffles",
+            "collection": "business-gifts",
             "image_padding": false,
-            "color_scheme": "background-2"
+            "color_scheme": "background-1"
           }
         },
         "1628504186cb60c406-1": {
           "type": "product",
           "settings": {
-            "product": "smores-camp-kit-classic-1",
-            "secondary_background": false,
+            "product": "chocolate-bark-collection",
+            "secondary_background": true,
             "second_image": true,
             "image_padding": false
           }
