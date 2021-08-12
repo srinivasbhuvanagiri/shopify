@@ -134,6 +134,44 @@
         "swipe_on_mobile": true
       }
     },
+    "1628752530b51449fa": {
+      "type": "collection-list",
+      "blocks": {
+        "1628752530b51449fa-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chocolate-truffles"
+          }
+        },
+        "1628752530b51449fa-1": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
+        },
+        "1628752530b51449fa-2": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "1628752530b51449fa-0",
+        "1628752530b51449fa-1",
+        "1628752530b51449fa-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_ratio": "adapt",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
     "162850293066fc421f": {
       "type": "collection-list",
       "blocks": {
@@ -175,6 +213,42 @@
         "image_ratio": "adapt",
         "color_scheme": "background-1",
         "swipe_on_mobile": true,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
+    "16287522938f93b44f": {
+      "type": "collection-list",
+      "blocks": {
+        "16287522938f93b44f-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chocolate-truffles"
+          }
+        },
+        "16287522938f93b44f-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "2021-summer"
+          }
+        },
+        "16287522938f93b44f-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "business-gifts"
+          }
+        }
+      },
+      "block_order": [
+        "16287522938f93b44f-0",
+        "16287522938f93b44f-1",
+        "16287522938f93b44f-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_ratio": "adapt",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
         "image_padding": false,
         "show_view_all": false
       }
@@ -272,42 +346,6 @@
         "full_width": true,
         "caption": "welcomee"
       }
-    },
-    "16287522938f93b44f": {
-      "type": "collection-list",
-      "blocks": {
-        "16287522938f93b44f-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "chocolate-truffles"
-          }
-        },
-        "16287522938f93b44f-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "2021-summer"
-          }
-        },
-        "16287522938f93b44f-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "business-gifts"
-          }
-        }
-      },
-      "block_order": [
-        "16287522938f93b44f-0",
-        "16287522938f93b44f-1",
-        "16287522938f93b44f-2"
-      ],
-      "settings": {
-        "title": "",
-        "image_ratio": "adapt",
-        "color_scheme": "background-1",
-        "swipe_on_mobile": false,
-        "image_padding": false,
-        "show_view_all": false
-      }
     }
   },
   "order": [
@@ -315,11 +353,12 @@
     "featured_products",
     "image_text",
     "1628502841fe36445c",
+    "1628752530b51449fa",
     "162850293066fc421f",
+    "16287522938f93b44f",
     "1628504186cb60c406",
     "162851327248fc219d",
     "16285061351683b498",
-    "162859349647430c39",
-    "16287522938f93b44f"
+    "162859349647430c39"
   ]
 }
