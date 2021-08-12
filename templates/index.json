@@ -345,22 +345,22 @@
         "16285061351683b498-0": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "heading": "Ragged Coast Chocolates",
+            "heading_size": "h0"
           }
         },
         "16285061351683b498-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>At Ragged Coast, we make all of our confections with fresh cream and butter from local farms.<\/p>"
           }
         },
         "16285061351683b498-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/pages\/about-us",
+            "button_style_secondary": true
           }
         }
       },
