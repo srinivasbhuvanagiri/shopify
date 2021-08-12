@@ -1,0 +1,15 @@
+.cgt-desc{
+  display:flex;
+}
+.cgt-desc .tab{
+   display: block;
+    list-style-type: none;
+    padding: 0;
+}
+.cgt-desc .tab li{
+  text-decoration:none;
+  color:black;
+}
+.cgt-desc .tab li .active{
+	color:green;
+}
