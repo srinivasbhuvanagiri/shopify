@@ -1,6 +1,8 @@
 {
   "current": {
     "colors_text": "#020202",
+    "type_header_font": "metro_nova_n4",
+    "type_body_font": "metro_nova_n4",
     "accent_icons": "accent-2",
     "page_width": "1600",
     "social_twitter_link": "#",
