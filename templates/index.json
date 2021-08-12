@@ -346,6 +346,42 @@
         "full_width": true,
         "caption": "welcomee"
       }
+    },
+    "16287527507608d13e": {
+      "type": "collection-list",
+      "blocks": {
+        "16287527507608d13e-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "2021-summer"
+          }
+        },
+        "16287527507608d13e-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "business-gifts"
+          }
+        },
+        "16287527507608d13e-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chocolate-truffles"
+          }
+        }
+      },
+      "block_order": [
+        "16287527507608d13e-0",
+        "16287527507608d13e-1",
+        "16287527507608d13e-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "adapt",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
     }
   },
   "order": [
@@ -359,6 +395,7 @@
     "1628504186cb60c406",
     "162851327248fc219d",
     "16285061351683b498",
-    "162859349647430c39"
+    "162859349647430c39",
+    "16287527507608d13e"
   ]
 }
