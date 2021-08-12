@@ -182,6 +182,45 @@
               </details>
             </share-button>
             <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
+        	                   <div>
+                  	<p>Gift Options</p>
+<!--                   	<input required type="radio" id="gift1" name="properties[Select an Select]" value="No Gift Tag" checked> <label for="gift1">No Gift Tag</label><br>
+					<input required type="radio" id="gift2" name="properties[Select an Select]" value="Gift Tag (Limited Text) Free"> <label for="gift2" >Gift Tag (Limited Text) Free</label><br>
+					<input required type="radio" id="gift3" name="properties[Select an Select]" value="Gift Scroll (Unlimited Text) $4.00"> <label for="gift3">Gift Scroll (Unlimited Text) $4.00</label><br>
+                  	 -->
+                    <div class="cgt-desc">
+                        <ul class="tabs clearfix">
+                            <li><a href="#tab-1" class="active">No Gift Tag</a></li>
+                            <li><a href="#tab-2">Gift Tag (Limited Text) Free</a></li>
+                            <li><a href="#tab-3">Gift Scroll (Unlimited Text) $4.00</a></li>
+                        </ul>
+
+                       <div class="cgt-content">
+                          <div id="tab-1" class="tab active">
+                              
+
+                          </div>
+                          <div id="tab-2" class="tab">
+                              <p class="line-item-property__field">
+								<label for="monogram">From</label>
+								<input required id="monogram" style="" type="text" name="properties[Monogram]">
+							  </p>
+                              <p class="line-item-property__field">
+								<label for="monogram">To</label>
+								<input required id="monogram" style="" type="text" name="properties[Monogram]">
+							  </p>
+                          </div>
+                          <div id="tab-3" class="tab">
+                              <p class="line-item-property__field">
+								<label for="custom-message">Custom message</label>
+								<textarea required id="custom-message" name="properties[Custom message]"></textarea>
+							  </p>
+                          </div>
+                       </div>
+                     </div>
+                     
+                   </div>
+                    <br>
           {%- when 'variant_picker' -%}
             {%- unless product.has_only_default_variant -%}
               {%- if block.settings.picker_type == 'button' -%}
@@ -240,46 +279,6 @@
             <noscript>
               <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
          
-                                   <div>
-                  	<p>Gift Options</p>
-<!--                   	<input required type="radio" id="gift1" name="properties[Select an Select]" value="No Gift Tag" checked> <label for="gift1">No Gift Tag</label><br>
-					<input required type="radio" id="gift2" name="properties[Select an Select]" value="Gift Tag (Limited Text) Free"> <label for="gift2" >Gift Tag (Limited Text) Free</label><br>
-					<input required type="radio" id="gift3" name="properties[Select an Select]" value="Gift Scroll (Unlimited Text) $4.00"> <label for="gift3">Gift Scroll (Unlimited Text) $4.00</label><br>
-                  	 -->
-                    <div class="cgt-desc">
-                        <ul class="tabs clearfix">
-                            <li><a href="#tab-1" class="active">No Gift Tag</a></li>
-                            <li><a href="#tab-2">Gift Tag (Limited Text) Free</a></li>
-                            <li><a href="#tab-3">Gift Scroll (Unlimited Text) $4.00</a></li>
-                        </ul>
-
-                       <div class="cgt-content">
-                          <div id="tab-1" class="tab active">
-                              
-
-                          </div>
-                          <div id="tab-2" class="tab">
-                              <p class="line-item-property__field">
-								<label for="monogram">From</label>
-								<input required id="monogram" style="" type="text" name="properties[Monogram]">
-							  </p>
-                              <p class="line-item-property__field">
-								<label for="monogram">To</label>
-								<input required id="monogram" style="" type="text" name="properties[Monogram]">
-							  </p>
-                          </div>
-                          <div id="tab-3" class="tab">
-                              <p class="line-item-property__field">
-								<label for="custom-message">Custom message</label>
-								<textarea required id="custom-message" name="properties[Custom message]"></textarea>
-							  </p>
-                          </div>
-                       </div>
-                     </div>
-                     
-                   </div>
-                    <br>
-                
                 <label class="form__label" for="Variants-{{ section.id }}">{{ 'products.product.product_variants' | t }}</label>
                 <div class="select">
                   <select name="id" id="Variants-{{ section.id }}" class="select__select" form="product-form">
