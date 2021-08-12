@@ -43,18 +43,26 @@
             "type": "link_list",
             "settings": {
               "heading": "Quick links",
-              "menu": "footer"
+              "menu": "main-menu"
+            }
+          },
+          "c54768a3-9b0b-4978-a47b-c35fff83eada": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Other links",
+              "menu": "main-menu"
             }
           }
         },
         "block_order": [
-          "footer-0"
+          "footer-0",
+          "c54768a3-9b0b-4978-a47b-c35fff83eada"
         ],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
           "newsletter_heading": "Sign up to our emails",
-          "show_social": false,
+          "show_social": true,
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true
