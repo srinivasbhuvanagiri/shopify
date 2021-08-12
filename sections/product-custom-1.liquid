@@ -266,13 +266,8 @@
                 {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
                   <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                   <div class="product-form__buttons">
-            		
-                                       <div>
-                  	<p>Gift Options</p>
-<!--                   	<input required type="radio" id="gift1" name="properties[Select an Select]" value="No Gift Tag" checked> <label for="gift1">No Gift Tag</label><br>
-					<input required type="radio" id="gift2" name="properties[Select an Select]" value="Gift Tag (Limited Text) Free"> <label for="gift2" >Gift Tag (Limited Text) Free</label><br>
-					<input required type="radio" id="gift3" name="properties[Select an Select]" value="Gift Scroll (Unlimited Text) $4.00"> <label for="gift3">Gift Scroll (Unlimited Text) $4.00</label><br>
-                  	 -->
+            	<!-- tabs starts -->	
+                   <div>
                     <div class="cgt-desc">
                         <ul class="tabs clearfix">
                             <li><a href="#tab-1" class="active">No Gift Tag</a></li>
@@ -282,7 +277,7 @@
 
                        <div class="cgt-content">
                           <div id="tab-1" class="tab active">
-                              
+                  
 
                           </div>
                           <div id="tab-2" class="tab">
@@ -306,7 +301,7 @@
                      
                    </div>
                     <br>
-			
+		<!-- tabs ends--->	
                     <button
                       type="submit"
                       name="add"
