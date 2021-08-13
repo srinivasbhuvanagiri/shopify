@@ -13,7 +13,7 @@ slider-component {
       scroll-padding-left: 1rem;
       -webkit-overflow-scrolling: touch;
     }
-   .slider-buttons-desktop{
+   .slider-buttons .slider-buttons-desktop{
     display:block;
   }
 }
