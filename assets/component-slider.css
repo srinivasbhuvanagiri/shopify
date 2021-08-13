@@ -14,7 +14,7 @@ slider-component {
       -webkit-overflow-scrolling: touch;
     }
    .slider--desktop .slider-buttons{
-    display:block;
+    display:block !important;
   }
 }
 /*desktop slider ends*/
