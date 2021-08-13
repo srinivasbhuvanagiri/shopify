@@ -58,7 +58,7 @@
         <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'accessibility.next_slide' | t }}">{% render 'icon-caret' %}</button>
       </div>
     
-    {%- if section.settings.collection.all_products_count > 2 and section.settings.swipe_on_mobile and section.settings.products_to_show > 2 -%}
+<!--     {%- if section.settings.collection.all_products_count > 2 and section.settings.swipe_on_mobile and section.settings.products_to_show > 2 -%}
       <div class="slider-buttons no-js-hidden{% if section.settings.collection.all_products_count < 4 %} medium-hide{% endif %}{% if section.settings.collection.all_products_count < 3 %} small-hide{% endif %}">
         <div class="slider-counter caption">
           <span class="slider-counter--current">1</span>
@@ -69,7 +69,7 @@
         <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'accessibility.previous_slide' | t }}">{% render 'icon-caret' %}</button>
         <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'accessibility.next_slide' | t }}">{% render 'icon-caret' %}</button>
       </div>
-    {%- endif -%}
+    {%- endif -%} -->
   </slider-component>
 
   {%- if section.settings.show_view_all and more_in_collection -%}
