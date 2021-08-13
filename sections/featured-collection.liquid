@@ -71,7 +71,7 @@
     </div>
   {%- endif -%}
   <div class="row">
-  {% for product in collections.best-sellers.products %}
+  {% for product in section.settings.products_to_show %}
     {% include 'product-grid-item' with "all" %}
   {% endfor %}
 </div>
