@@ -16,6 +16,9 @@ slider-component {
     .slider-buttons{
     display:block !important;
   }
+  .slider-buttons-desktop{
+  	display:none;
+  }  
 }
 /*desktop slider ends*/
 @media screen and (max-width: 989px) {
