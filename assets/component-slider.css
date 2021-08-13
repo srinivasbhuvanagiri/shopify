@@ -13,8 +13,8 @@ slider-component {
       scroll-padding-left: 1rem;
       -webkit-overflow-scrolling: touch;
     }
-   .slider-buttons .slider-buttons-desktop{
-    display:block;
+   .slider--desktop .slider-buttons-desktop{
+    display:block !important;
   }
 }
 /*desktop slider ends*/
