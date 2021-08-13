@@ -466,9 +466,48 @@
     },
     "collection-slider": {
       "name": "Collection Slider",
-      "setting": {
+      "settings": {
+        "title": {
+          "label": "Heading"
+        },
+        "collection": {
+          "label": "Collection"
+        },
+        "products_to_show": {
+          "label": "Maximum products to show"
+        },
+        "show_view_all": {
+          "label": "Enable \"View all\" button if collection has more products than shown"
+        },
         "swipe_on_mobile": {
-          "label": "Enable swipe "
+          "label": "Enable swipe"
+        },
+        "header": {
+          "content": "Product card"
+        },
+        "image_ratio": {
+          "label": "Image ratio",
+          "options__1": {
+            "label": "Adapt to image"
+          },
+          "options__2": {
+            "label": "Portrait"
+          },
+          "options__3": {
+            "label": "Square"
+          }
+        },
+        "show_secondary_image": {
+          "label": "Show second image on hover"
+        },
+        "add_image_padding": {
+          "label": "Add padding"
+        },
+        "show_image_outline": {
+          "label": "Show image outline"
+        },
+        "show_vendor": {
+          "label": "Show vendor"
         }
       },
       "presets": {
