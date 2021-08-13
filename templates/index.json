@@ -43,7 +43,7 @@
     "16288468154f97c1e6": {
       "type": "featured-collection",
       "settings": {
-        "title": "Best Seller",
+        "title": "collection",
         "collection": "best-selling",
         "products_to_show": 12,
         "show_view_all": false,
