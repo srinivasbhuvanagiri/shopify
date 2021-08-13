@@ -466,6 +466,11 @@
     },
     "collection-slider": {
       "name": "Collection Slider",
+      "setting": {
+        "swipe_on_mobile": {
+          "label": "Enable swipe "
+        }
+      },
       "presets": {
         "name": "Collection Slider"
       }
@@ -486,7 +491,7 @@
           "label": "Enable \"View all\" button if collection has more products than shown"
         },
         "swipe_on_mobile": {
-          "label": "Enable swipe "
+          "label": "Enable swipe mobile"
         },
         "header": {
           "content": "Product card"
