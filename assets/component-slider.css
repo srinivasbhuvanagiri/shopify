@@ -4,7 +4,7 @@ slider-component {
 }
 /*desktop slider start*/
 @media screen and (min-width:990px){
-  .slider.slider--desktop {
+  .slider--desktop {
       position: relative;
       flex-wrap: inherit;
       overflow-x: auto;
