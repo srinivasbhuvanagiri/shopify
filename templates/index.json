@@ -385,7 +385,7 @@
     "1628860574cffacbde": {
       "type": "collection-slider",
       "settings": {
-        "title": "Featured collection",
+        "title": "collection slide",
         "collection": "best-selling",
         "products_to_show": 12,
         "show_view_all": false,
