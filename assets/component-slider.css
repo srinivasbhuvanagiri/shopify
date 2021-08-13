@@ -27,6 +27,9 @@ slider-component {
   .no-js slider-component .slider {
     padding-bottom: 3rem;
   }
+  .slider-buttons-desktop{
+    display:none;
+  }
 }
 
 .slider__slide {
