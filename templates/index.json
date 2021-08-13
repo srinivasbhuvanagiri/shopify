@@ -43,7 +43,7 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "Best Selling",
         "collection": "chocolate-truffles",
         "products_to_show": 12,
         "show_view_all": false,
