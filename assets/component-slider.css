@@ -30,6 +30,9 @@ slider-component {
   .no-js slider-component .slider {
     padding-bottom: 3rem;
   }
+  .slider-desktop-gutter .slider-buttons.desktop{
+  	display:none;
+  }
 }
 
 .slider__slide {
