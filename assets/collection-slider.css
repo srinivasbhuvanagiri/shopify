@@ -1,6 +1,6 @@
 /*desktop slider start*/
 @media screen and (min-width:990px){
-  .slider--desktop {
+  .slider-desktop-gutter .slider--desktop {
       position: relative;
       flex-wrap: inherit;
       overflow-x: auto;
@@ -9,11 +9,11 @@
       scroll-padding-left: 1rem;
       -webkit-overflow-scrolling: touch;
     }
-    .slider-buttons{
+    .slider-desktop-gutter .slider-buttons{
     display:block !important;
       top:-85px;
   }
-  .slider-buttons-desktop{
+  .slider-desktop-gutter .slider-buttons-desktop{
   	display:none !important;
   }  
 }
