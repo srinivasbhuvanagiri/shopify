@@ -464,6 +464,12 @@
         "name": "Blog posts"
       }
     },
+    "collection-slider": {
+      "name": "Collection Slider",
+      "presets": {
+        "name": "Collection Slider"
+      }
+    },
     "featured-collection": {
       "name": "Featured collection",
       "settings": {
