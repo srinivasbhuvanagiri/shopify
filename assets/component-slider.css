@@ -13,7 +13,7 @@ slider-component {
       scroll-padding-left: 1rem;
       -webkit-overflow-scrolling: touch;
     }
-  .slider-desktop-gutter .slider-buttons-desktop{
+  .slider-desktop-gutter .slider-buttons.desktop{
     display:block;
     top:-85px;
   }
@@ -29,9 +29,6 @@ slider-component {
 
   .no-js slider-component .slider {
     padding-bottom: 3rem;
-  }
-  .slider-buttons-desktop{
-    display:none;
   }
 }
 
