@@ -44,7 +44,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Best Seller",
-        "collection": "best-selling",
+        "collection": "2021-graduation",
         "products_to_show": 6,
         "show_view_all": false,
         "swipe_on_mobile": true,
