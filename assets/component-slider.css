@@ -12,6 +12,9 @@ slider-component {
     scroll-padding-left: 1rem;
     -webkit-overflow-scrolling: touch;
   }
+.slider-desktop-gutter .slider-buttons{
+	display:block;
+}
 /*desktop slider ends*/
 @media screen and (max-width: 989px) {
   slider-component .slider {
