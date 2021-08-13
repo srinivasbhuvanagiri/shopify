@@ -40,16 +40,16 @@
         "adapt_height_first_image": true
       }
     },
-    "featured_products": {
+    "16288468154f97c1e6": {
       "type": "featured-collection",
       "settings": {
-        "title": "Best Selling",
-        "collection": "chocolate-truffles",
+        "title": "Best Seller",
+        "collection": "best-selling",
         "products_to_show": 12,
         "show_view_all": false,
         "swipe_on_mobile": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
+        "image_ratio": "square",
+        "show_secondary_image": false,
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": true
@@ -381,26 +381,11 @@
         "color_scheme": "accent-1",
         "full_width": true
       }
-    },
-    "16288468154f97c1e6": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Best Seller",
-        "collection": "best-selling",
-        "products_to_show": 12,
-        "show_view_all": false,
-        "swipe_on_mobile": true,
-        "image_ratio": "square",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": true
-      }
     }
   },
   "order": [
     "image_banner",
-    "featured_products",
+    "16288468154f97c1e6",
     "image_text",
     "1628502841fe36445c",
     "1628752530b51449fa",
@@ -409,7 +394,6 @@
     "16287527507608d13e",
     "1628504186cb60c406",
     "162851327248fc219d",
-    "16285061351683b498",
-    "16288468154f97c1e6"
+    "16285061351683b498"
   ]
 }
