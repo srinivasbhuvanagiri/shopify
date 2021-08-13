@@ -3,17 +3,19 @@ slider-component {
   display: block;
 }
 /*desktop slider start*/
-.slider.slider--desktop {
-    position: relative;
-    flex-wrap: inherit;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    scroll-padding-left: 1rem;
-    -webkit-overflow-scrolling: touch;
+@media screen and (min-width:990px){
+  .slider.slider--desktop {
+      position: relative;
+      flex-wrap: inherit;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+      scroll-padding-left: 1rem;
+      -webkit-overflow-scrolling: touch;
+    }
+  .slider-desktop-gutter .slider-buttons{
+      display:block;
   }
-.slider-desktop-gutter .slider-buttons{
-	display:block;
 }
 /*desktop slider ends*/
 @media screen and (max-width: 989px) {
