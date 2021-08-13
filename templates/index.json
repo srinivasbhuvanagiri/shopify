@@ -42,10 +42,9 @@
     },
     "featured_products": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Featured products",
-        "collection": "frontpage",
+        "collection": "chocolate-truffles",
         "products_to_show": 12,
         "show_view_all": false,
         "swipe_on_mobile": true,
