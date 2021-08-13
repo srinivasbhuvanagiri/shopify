@@ -17,9 +17,6 @@ slider-component {
     display:block;
     top:-85px;
   }
-  .slider-desktop-gutter .slider-buttons{
-  	display:none;
-  }
 }
 /*desktop slider ends*/
 @media screen and (max-width: 989px) {
@@ -29,9 +26,6 @@ slider-component {
 
   .no-js slider-component .slider {
     padding-bottom: 3rem;
-  }
-  .slider-desktop-gutter .slider-buttons.desktop{
-  	display:none;
   }
 }
 
