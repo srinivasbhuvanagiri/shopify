@@ -482,6 +482,9 @@
         "swipe_on_mobile": {
           "label": "Enable swipe on mobile"
         },
+        "swipe_on_desktop": {
+          "label": "Enable swipe on Desktop"
+        },
         "header": {
           "content": "Product card"
         },
