@@ -70,7 +70,11 @@
       </a>
     </div>
   {%- endif -%}
-  
+  <div class="row">
+  {% for product in collections.best-sellers.products %}
+    {% include 'product-grid-item' with "all" %}
+  {% endfor %}
+</div>
 </div>
 
 {% schema %}
