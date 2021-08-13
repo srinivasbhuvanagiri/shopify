@@ -15,6 +15,7 @@ slider-component {
     }
     .slider-buttons{
     display:block !important;
+      top:-85px;
   }
   .slider-buttons-desktop{
   	display:none !important;
