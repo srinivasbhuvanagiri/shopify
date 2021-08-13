@@ -2,7 +2,17 @@ slider-component {
   position: relative;
   display: block;
 }
-
+/*desktop slider start*/
+.slider.slider--desktop {
+    position: relative;
+    flex-wrap: inherit;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scroll-padding-left: 1rem;
+    -webkit-overflow-scrolling: touch;
+  }
+/*desktop slider ends*/
 @media screen and (max-width: 989px) {
   slider-component .slider {
     padding-bottom: 6rem;
