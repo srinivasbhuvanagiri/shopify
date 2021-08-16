@@ -117,7 +117,7 @@
       "disabled": true,
       "settings": {
         "title": "collection",
-        "collection": "best-selling",
+        "collection": "2021-summer",
         "products_to_show": 4,
         "show_view_all": false,
         "swipe_on_mobile": true,
