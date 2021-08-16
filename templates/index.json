@@ -453,6 +453,21 @@
         "color_scheme": "accent-1",
         "full_width": true
       }
+    },
+    "162911820214a57e0f": {
+      "type": "collection-slider",
+      "settings": {
+        "title": "Business Gifting",
+        "collection": "business-gifts",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false
+      }
     }
   },
   "order": [
@@ -468,6 +483,7 @@
     "16287527507608d13e",
     "1628504186cb60c406",
     "162851327248fc219d",
-    "16285061351683b498"
+    "16285061351683b498",
+    "162911820214a57e0f"
   ]
 }
