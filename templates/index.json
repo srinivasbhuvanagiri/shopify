@@ -46,7 +46,7 @@
         "title": "Best Seller",
         "collection": "best-selling",
         "products_to_show": 12,
-        "show_view_all": true,
+        "show_view_all": false,
         "swipe_on_mobile": true,
         "image_ratio": "square",
         "show_secondary_image": false,
@@ -55,8 +55,66 @@
         "show_vendor": false
       }
     },
+    "1629118092b543eec1": {
+      "type": "collection-list",
+      "blocks": {
+        "1629118092b543eec1-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "2021-summer"
+          }
+        },
+        "1629118092b543eec1-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "business-gifts"
+          }
+        },
+        "8654dfd2-dfff-40d0-9f89-63a7f0be3dec": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chocolate-bark"
+          }
+        },
+        "05803d90-0f46-43d8-8434-85e11ffb0cec": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chocolate-caramels"
+          }
+        },
+        "47f0fa7d-819a-4768-a89b-7a0d9c33b4af": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chocolate-gift-sets"
+          }
+        },
+        "d7652054-b943-423d-b108-ec02fe6fd577": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chocolate-truffles"
+          }
+        }
+      },
+      "block_order": [
+        "1629118092b543eec1-1",
+        "1629118092b543eec1-2",
+        "8654dfd2-dfff-40d0-9f89-63a7f0be3dec",
+        "05803d90-0f46-43d8-8434-85e11ffb0cec",
+        "47f0fa7d-819a-4768-a89b-7a0d9c33b4af",
+        "d7652054-b943-423d-b108-ec02fe6fd577"
+      ],
+      "settings": {
+        "title": "Shop By Category",
+        "image_ratio": "adapt",
+        "color_scheme": "inverse",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": true
+      }
+    },
     "16288468154f97c1e6": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "collection",
         "collection": "best-selling",
@@ -396,89 +454,12 @@
         "color_scheme": "accent-1",
         "full_width": true
       }
-    },
-    "1629118092b543eec1": {
-      "type": "collection-list",
-      "blocks": {
-        "1629118092b543eec1-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "2021-graduation"
-          }
-        },
-        "1629118092b543eec1-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "2021-summer"
-          }
-        },
-        "1629118092b543eec1-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "business-gifts"
-          }
-        },
-        "8654dfd2-dfff-40d0-9f89-63a7f0be3dec": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "chocolate-bark"
-          }
-        },
-        "05803d90-0f46-43d8-8434-85e11ffb0cec": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "chocolate-caramels"
-          }
-        },
-        "47f0fa7d-819a-4768-a89b-7a0d9c33b4af": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "chocolate-gift-sets"
-          }
-        },
-        "d7652054-b943-423d-b108-ec02fe6fd577": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "chocolate-truffles"
-          }
-        },
-        "029ae3c3-a768-4175-9a9f-8cb201a16ecd": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "cookbooks-ingredients"
-          }
-        },
-        "0b069336-595b-4246-8c5d-ef80c01b1875": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "drinking-chocolate"
-          }
-        }
-      },
-      "block_order": [
-        "1629118092b543eec1-0",
-        "1629118092b543eec1-1",
-        "1629118092b543eec1-2",
-        "8654dfd2-dfff-40d0-9f89-63a7f0be3dec",
-        "05803d90-0f46-43d8-8434-85e11ffb0cec",
-        "47f0fa7d-819a-4768-a89b-7a0d9c33b4af",
-        "d7652054-b943-423d-b108-ec02fe6fd577",
-        "029ae3c3-a768-4175-9a9f-8cb201a16ecd",
-        "0b069336-595b-4246-8c5d-ef80c01b1875"
-      ],
-      "settings": {
-        "title": "Shop By Category",
-        "image_ratio": "adapt",
-        "color_scheme": "inverse",
-        "swipe_on_mobile": false,
-        "image_padding": false,
-        "show_view_all": true
-      }
     }
   },
   "order": [
     "image_banner",
     "1628860574cffacbde",
+    "1629118092b543eec1",
     "16288468154f97c1e6",
     "image_text",
     "1628502841fe36445c",
@@ -488,7 +469,6 @@
     "16287527507608d13e",
     "1628504186cb60c406",
     "162851327248fc219d",
-    "16285061351683b498",
-    "1629118092b543eec1"
+    "16285061351683b498"
   ]
 }
