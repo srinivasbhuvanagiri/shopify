@@ -92,12 +92,12 @@
                 <input required type="radio" name="properties[Choose an option]" value="Option 3"> <span>Gift Scroll (Unlimited Text) $4.00</span><br>
                 </p> -->
         		  <p>Gift Box</p>
-                  <input type="radio" id=gift" name="option1" value="No Gift Tag" checked onchange="varaionsChange(event)">
-                  <label for="gift">No Gift Tag</label>
+                  <input type="radio" id="option1" name="option1" value="No Gift Tag" checked onchange="varaionsChange(event)">
+                  <label for="option1">No Gift Tag</label>
                   <input type="radio" id="option2" name="option2" value="Gift Tag (Limited Text) Free" onchange="varaionsChange(event)">
-                  <label for="gift">Gift Tag (Limited Text) Free</label>
+                  <label for="option2">Gift Tag (Limited Text) Free</label>
                   <input type="radio" id="option3" name="option3" value="Gift Scroll (Unlimited Text) $4.00" onchange="varaionsChange(event)">
-                  <label for="gift">Gift Scroll (Unlimited Text) $4.00</label>
+                  <label for="option3">Gift Scroll (Unlimited Text) $4.00</label>
 				   <br/>
         			<p class="line-item-property__field" id="gift2" style="display:none">
                       <label for="monogram">Monogram (up to 3 letters)</label>
@@ -484,10 +484,10 @@
   function varaionsChange(e){
     var gift2 = document.getElementById('gift2');
     var gift3 = document.getElementById('gift3');
-    if(e.target.id === 'option2'){
+    if(e.target.name === 'option2'){
     	gift2.style.display = 'block';
     }
-    if(e.target.id === 'option3'){
+    if(e.target.name === 'option3'){
     	gift3.style.display = 'block';
     }
   }
