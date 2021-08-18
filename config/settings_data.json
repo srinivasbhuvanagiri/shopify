@@ -110,7 +110,7 @@
           "9239b40a-6c2d-4fad-b793-27727e480335": {
             "type": "variations",
             "settings": {
-              "variations": false
+              "variations": true
             }
           },
           "55392be4-5799-4702-9bf7-9ee6cb4f7cb0": {
