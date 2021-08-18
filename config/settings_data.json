@@ -143,7 +143,7 @@
             "type": "collapsible_tab",
             "settings": {
               "heading": "About us",
-              "content": "",
+              "content": "<p>about us desc...<\/p>",
               "page": "about-us",
               "icon": "check_mark"
             }
