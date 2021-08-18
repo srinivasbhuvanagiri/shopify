@@ -91,6 +91,14 @@
                 <input required type="radio" name="properties[Choose an option]" value="Option 2"> <span>Gift Tag (Limited Text) Free</span><br>
                 <input required type="radio" name="properties[Choose an option]" value="Option 3"> <span>Gift Scroll (Unlimited Text) $4.00</span><br>
                 </p>
+        		  <p>Please select your favorite Web language:</p>
+                  <input type="radio" id="html" name="fav_language" value="HTML">
+                  <label for="html">HTML</label><br>
+                  <input type="radio" id="css" name="fav_language" value="CSS">
+                  <label for="css">CSS</label><br>
+                  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                  <label for="javascript">JavaScript</label>
+	
         	{% endif %}	
           {%- when 'price' -%}
             <div class="no-js-hidden" id="price-{{ section.id }}" {{ block.shopify_attributes }}>
