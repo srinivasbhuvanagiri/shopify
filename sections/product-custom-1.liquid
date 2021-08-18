@@ -266,42 +266,6 @@
                 {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
                   <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                   <div class="product-form__buttons">
-            	<!-- tabs starts -->	
-                   <div>
-                    <div class="cgt-desc">
-                        <ul class="tabs clearfix">
-                            <li><a href="#tab-1" class="active">No Gift Tag</a></li>
-                            <li><a href="#tab-2">Gift Tag (Limited Text) Free</a></li>
-                            <li><a href="#tab-3">Gift Scroll (Unlimited Text) $4.00</a></li>
-                        </ul>
-
-                       <div class="cgt-content">
-                          <div id="tab-1" class="tab active">
-                  
-
-                          </div>
-                          <div id="tab-2" class="tab">
-                              <p class="line-item-property__field">
-								<label for="monogram">From</label>
-								<input required id="monogram" style="" type="text" name="properties[Monogram]">
-							  </p>
-                              <p class="line-item-property__field">
-								<label for="monogram">To</label>
-								<input required id="monogram" style="" type="text" name="properties[Monogram]">
-							  </p>
-                          </div>
-                          <div id="tab-3" class="tab">
-                              <p class="line-item-property__field">
-								<label for="custom-message">Custom message</label>
-								<textarea required id="custom-message" name="properties[Custom message]"></textarea>
-							  </p>
-                          </div>
-                       </div>
-                     </div>
-                     
-                   </div>
-                    <br>
-		<!-- tabs ends--->	
                     <button
                       type="submit"
                       name="add"
@@ -489,47 +453,7 @@
 
   customElements.define('product-modal', ProductModal);
 {% endjavascript %}
-<script>
 
- $(document).ready(function() {
-
- $('ul.tabs').each(function(){
-
- var active, content, links = $(this).find('a');
-
- active = links.first().addClass('active');
-
- content = $(active.attr('href'));
-
- links.not(':first').each(function () {
-
- $($(this).attr('href')).hide();
-
- });
-
- $(this).find('a').click(function(e){
-
- active.removeClass('active');
-
- content.hide();
-
- active = $(this);
-
- content = $($(this).attr('href'));
-
- active.addClass('active');
-
- content.show();
-
- return false;
-
- });
-
- });
-
- });
-
- </script>
 
 {%- if first_3d_model -%}
   <script type="application/json" id="ProductJSON-{{ product.id }}">
