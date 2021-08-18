@@ -1216,6 +1216,14 @@
             }
           }
         },
+        "variatons": {
+          "name": "variations",
+          "settings": {
+            "variations": {
+              "label": "vaiations"
+            }
+          }
+        },
         "custom_liquid": {
           "name": "Custom liquid",
           "settings": {
