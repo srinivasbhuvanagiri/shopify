@@ -70,18 +70,11 @@
                       {% assign property_size = item.properties | size %}
                           {% if property_size > 0 %}
                           {% for p in item.properties %}
-                          {% unless p.last == blank %}
-                          {{ p.first }}:
-                          {% if p.last contains '/uploads/' %}
-                          <a class="lightbox" href="{{ p.last }}">{{ p.last | split: '/' | last }}</a>
-                          {% else %}
-                          {{ p.last }}
-                          {% endif %}
-                          <br>
-                          {% endunless %}
+                            <h1>options</h1>
                           {% endfor %}
                           {% endif %}
                       <!--props ends-->
+                      <h1>options</h1>
                         {%- for property in item.properties -%}
                           {%- assign property_first_char = property.first | slice: 0 -%}
                           {%- if property.last != blank and property_first_char != '_' -%}
