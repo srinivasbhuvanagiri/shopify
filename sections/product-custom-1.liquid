@@ -482,8 +482,13 @@
 
 <script>
   function varaionsChange(e){
+    var gift2 = document.getElementById('gift1');
     var gift2 = document.getElementById('gift2');
     var gift3 = document.getElementById('gift3');
+    if(e.target.id === 'option1'){
+    	gift2.style.display = 'none';
+      	gift3.style.display = 'none';
+    }
     if(e.target.id === 'option2'){
     	gift2.style.display = 'block';
       	gift3.style.display = 'none';
