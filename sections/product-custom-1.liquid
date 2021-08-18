@@ -86,7 +86,7 @@
          {%- when 'variations' -%}
         	{% if block.setting.variations != blank %}
         		<h1>custom variation</h1>
-        	{%- endif -%}	
+        	{% endif %}	
           {%- when 'price' -%}
             <div class="no-js-hidden" id="price-{{ section.id }}" {{ block.shopify_attributes }}>
               {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
