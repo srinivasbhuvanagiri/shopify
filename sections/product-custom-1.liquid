@@ -85,7 +85,12 @@
             </h1>
          {%- when 'variations' -%}
         	{% if block.settings.variations != blank %}
-        		<h1>custom variation</h1>
+        		<p class="line-item-property__field">
+                <label>Choose an option</label><br>
+                <input required type="radio" name="properties[Choose an option]" value="Option 1"> <span>Option 1</span><br>
+                <input required type="radio" name="properties[Choose an option]" value="Option 2"> <span>Option 2</span><br>
+                <input required type="radio" name="properties[Choose an option]" value="Option 3"> <span>Option 3</span><br>
+                </p>
         	{% endif %}	
           {%- when 'price' -%}
             <div class="no-js-hidden" id="price-{{ section.id }}" {{ block.shopify_attributes }}>
