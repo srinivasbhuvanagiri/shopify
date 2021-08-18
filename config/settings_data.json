@@ -138,6 +138,15 @@
             "type": "share",
             "settings": {
             }
+          },
+          "a9e35263-1039-4835-8699-8d9c2bec46fe": {
+            "type": "collapsible_tab",
+            "settings": {
+              "heading": "About us",
+              "content": "",
+              "page": "about-us",
+              "icon": "check_mark"
+            }
           }
         },
         "block_order": [
@@ -148,7 +157,8 @@
           "5422947f-e07a-4a56-8585-f4ac26974050",
           "2ab6aaa4-277f-42a1-b55f-d52b13410931",
           "f8297311-738e-4ff3-887c-4d721ab2d224",
-          "1dbd51ba-826d-49e9-9171-2732ac377efc"
+          "1dbd51ba-826d-49e9-9171-2732ac377efc",
+          "a9e35263-1039-4835-8699-8d9c2bec46fe"
         ],
         "settings": {
           "enable_sticky_info": true,
