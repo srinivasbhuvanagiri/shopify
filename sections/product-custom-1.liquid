@@ -69,7 +69,15 @@
     <div class="product__info-wrapper grid__item">
       <div id="ProductInfo-{{ section.id }}" class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
-
+			
+        <!---radio-->
+                  <p class="line-item-property__field">
+      <label>Choose an option</label><br>
+      <input required type="radio" name="properties[Choose an option]" value="Option 1"> <span>Option 1</span><br>
+      <input required type="radio" name="properties[Choose an option]" value="Option 2"> <span>Option 2</span><br>
+      <input required type="radio" name="properties[Choose an option]" value="Option 3"> <span>Option 3</span><br>
+      </p>
+        <!--radios-->
         
         {%- for block in section.blocks -%}
           {%- case block.type -%}
@@ -183,14 +191,7 @@
               </details>
             </share-button>
             <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
-        <!---radio-->
-                  <p class="line-item-property__field">
-      <label>Choose an option</label><br>
-      <input required type="radio" name="properties[Choose an option]" value="Option 1"> <span>Option 1</span><br>
-      <input required type="radio" name="properties[Choose an option]" value="Option 2"> <span>Option 2</span><br>
-      <input required type="radio" name="properties[Choose an option]" value="Option 3"> <span>Option 3</span><br>
-      </p>
-        <!--radios-->
+        
           {%- when 'variant_picker' -%}
             {%- unless product.has_only_default_variant -%}
               {%- if block.settings.picker_type == 'button' -%}
