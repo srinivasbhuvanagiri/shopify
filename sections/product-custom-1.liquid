@@ -84,7 +84,7 @@
               {{ product.title | escape }}
             </h1>
          {%- when 'variations' -%}
-        	{% if block.setting.variations != blank %}
+        	{% if block.settings.variations != 'true' %}
         		<h1>custom variation</h1>
         	{% endif %}	
           {%- when 'price' -%}
