@@ -55,11 +55,68 @@
         "show_vendor": false
       }
     },
+    "1629118092b543eec1": {
+      "type": "collection-list",
+      "blocks": {
+        "1629118092b543eec1-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "2021-summer"
+          }
+        },
+        "1629118092b543eec1-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "business-gifts"
+          }
+        },
+        "8654dfd2-dfff-40d0-9f89-63a7f0be3dec": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chocolate-bark"
+          }
+        },
+        "05803d90-0f46-43d8-8434-85e11ffb0cec": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chocolate-caramels"
+          }
+        },
+        "47f0fa7d-819a-4768-a89b-7a0d9c33b4af": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chocolate-gift-sets"
+          }
+        },
+        "d7652054-b943-423d-b108-ec02fe6fd577": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chocolate-truffles"
+          }
+        }
+      },
+      "block_order": [
+        "1629118092b543eec1-1",
+        "1629118092b543eec1-2",
+        "8654dfd2-dfff-40d0-9f89-63a7f0be3dec",
+        "05803d90-0f46-43d8-8434-85e11ffb0cec",
+        "47f0fa7d-819a-4768-a89b-7a0d9c33b4af",
+        "d7652054-b943-423d-b108-ec02fe6fd577"
+      ],
+      "settings": {
+        "title": "Shop By Category",
+        "image_ratio": "adapt",
+        "color_scheme": "inverse",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": true
+      }
+    },
     "16288468154f97c1e6": {
       "type": "featured-collection",
       "settings": {
-        "title": "collection",
-        "collection": "best-selling",
+        "title": "Seasonal And New Arrivals",
+        "collection": "2021-summer",
         "products_to_show": 4,
         "show_view_all": false,
         "swipe_on_mobile": true,
@@ -68,6 +125,21 @@
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": true
+      }
+    },
+    "162911820214a57e0f": {
+      "type": "collection-slider",
+      "settings": {
+        "title": "Business Gifting",
+        "collection": "business-gifts",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false
       }
     },
     "image_text": {
@@ -401,7 +473,9 @@
   "order": [
     "image_banner",
     "1628860574cffacbde",
+    "1629118092b543eec1",
     "16288468154f97c1e6",
+    "162911820214a57e0f",
     "image_text",
     "1628502841fe36445c",
     "1628752530b51449fa",
