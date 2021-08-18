@@ -20,6 +20,7 @@ class ProductForm extends HTMLElement {
       ...JSON.parse(serializeForm(this.form)),
       sections: this.cartNotification.getSectionsToRender().map((section) => section.id),
       sections_url: window.location.pathname
+      properties: { Pinfel: $('#pinfel-select select').val() },
     });
 
     fetch(`${routes.cart_add_url}`, { ...fetchConfig('javascript'), body })
