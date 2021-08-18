@@ -70,6 +70,8 @@
       <div id="ProductInfo-{{ section.id }}" class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
 			
+        
+        {%- for block in section.blocks -%}
         <!---radio-->
                   <p class="line-item-property__field">
       <label>Choose an option</label><br>
@@ -78,8 +80,6 @@
       <input required type="radio" name="properties[Choose an option]" value="Option 3"> <span>Option 3</span><br>
       </p>
         <!--radios-->
-        
-        {%- for block in section.blocks -%}
           {%- case block.type -%}
           {%- when '@app' -%}
             {% render block %}
