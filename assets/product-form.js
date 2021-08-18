@@ -19,8 +19,7 @@ class ProductForm extends HTMLElement {
     const body = JSON.stringify({
       ...JSON.parse(serializeForm(this.form)),
       sections: this.cartNotification.getSectionsToRender().map((section) => section.id),
-      sections_url: window.location.pathname,
-      properties: { Pinfel: this.itemProperty.value }
+      sections_url: window.location.pathname
     });
 
     fetch(`${routes.cart_add_url}`, { ...fetchConfig('javascript'), body })
