@@ -300,9 +300,9 @@
                 {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
                   <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                  <p class="line-item-property__field">
-                   <label for="engraving">Engraving</label>
-                   <input required class="required" id="engraving" type="text" name="properties[Engraving]">
-                   </p>
+                  <label for="your-name">Your name</label>
+                  <input required class="required" id="your-name" type="text" name="properties[Your name]">
+                </p>
                   <div class="product-form__buttons">
                     <button
                       type="submit"
