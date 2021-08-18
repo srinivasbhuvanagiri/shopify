@@ -84,8 +84,8 @@
               {{ product.title | escape }}
             </h1>
          {%- when 'variations' -%}
-<!--         	{% if block.settings.variations != blank %}
-				<!--<p class="line-item-property__field">
+         	{% if block.settings.variations != blank %}
+				<p class="line-item-property__field">
                 <label>Gift Box</label><br>
                 <input required type="radio" name="properties[Choose an option]" value="Option 1"> <span>No Gift Tag</span><br>
                 <input required type="radio" name="properties[Choose an option]" value="Option 2"> <span>Gift Tag (Limited Text) Free</span><br>
@@ -115,7 +115,7 @@
 						<label for="scroll-message">Scroll Message</label>
 						<textarea required id="scroll-message" name="properties[Custom message]"></textarea>
 					</p>
-        	{% endif %}	 -->
+        	{% endif %}	
           {%- when 'price' -%}
             <div class="no-js-hidden" id="price-{{ section.id }}" {{ block.shopify_attributes }}>
               {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
