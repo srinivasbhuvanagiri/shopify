@@ -98,7 +98,15 @@
                   <label for="option2">Gift Tag (Limited Text) Free</label>
                   <input type="radio" id="option3" name="properties[Choose an option]" value="Gift Scroll (Unlimited Text) $4.00" onchange="varaionsChange(event)">
                   <label for="option3">Gift Scroll (Unlimited Text) $4.00</label>
-	
+				   <br/>
+        			<p class="line-item-property__field" id="gift2" style="display:none">
+                      <label for="monogram">Monogram (up to 3 letters)</label>
+                      <input required id="monogram" style="width:120px; max-width:100%;" type="text" name="properties[Monogram]">
+                      </p>
+        			<p class="line-item-property__field" id="gift3" style="display:none">
+						<label for="custom-message">Custom message</label>
+						<textarea required id="custom-message" name="properties[Custom message]"></textarea>
+					</p>
         	{% endif %}	
           {%- when 'price' -%}
             <div class="no-js-hidden" id="price-{{ section.id }}" {{ block.shopify_attributes }}>
@@ -474,7 +482,14 @@
 
 <script>
   function varaionsChange(e){
-     console.log(e.target.value);
+    var gift2 = document.getElementById('gift2');
+    var gift3 = document.getElementById('gift3');
+    if(e.target.id = 'option2'){
+    	gift2.style.display = 'block';
+    }
+    if(e.target.id = 'option3'){
+    	gift3.style.display = 'block';
+    }
   }
 </script>
 {%- if first_3d_model -%}
