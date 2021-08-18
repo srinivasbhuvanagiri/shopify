@@ -82,17 +82,7 @@
                             </div>
                           {%- endif -%}
                         {%- endfor -%}
-                      </dl>
-						<!--->
-							{% for p in item.properties %}
-                              {% if p.first contains '_io_' %}
-                                {% continue %}
-                              {% endif %}
-                              {% unless p.last == blank %}
-                                <br />{{p.first}}: {{ p.last }}
-                              {% endunless %}
-                            {% endfor %}
-						<!--->				
+                      </dl>			
                       <p class="product-option">{{ item.selling_plan_allocation.selling_plan.name }}</p>
                     {%- endif -%}
 
