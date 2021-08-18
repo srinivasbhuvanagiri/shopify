@@ -85,19 +85,19 @@
             </h1>
          {%- when 'variations' -%}
         	{% if block.settings.variations != blank %}
-        		<p class="line-item-property__field">
+				<!--<p class="line-item-property__field">
                 <label>Gift Box</label><br>
                 <input required type="radio" name="properties[Choose an option]" value="Option 1"> <span>No Gift Tag</span><br>
                 <input required type="radio" name="properties[Choose an option]" value="Option 2"> <span>Gift Tag (Limited Text) Free</span><br>
                 <input required type="radio" name="properties[Choose an option]" value="Option 3"> <span>Gift Scroll (Unlimited Text) $4.00</span><br>
-                </p>
-        		  <p>Please select your favorite Web language:</p>
-                  <input type="radio" id="html" name="fav_language" value="HTML">
-                  <label for="html">HTML</label><br>
-                  <input type="radio" id="css" name="fav_language" value="CSS">
-                  <label for="css">CSS</label><br>
-                  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-                  <label for="javascript">JavaScript</label>
+                </p> -->
+        		  <p>Gift Box</p>
+                  <input type="radio" id="option1" name="properties[Choose an option]" value="No Gift Tag">
+                  <label for="option1">No Gift Tag</label>
+                  <input type="radio" id="option2" name="properties[Choose an option]" value="Gift Tag (Limited Text) Free">
+                  <label for="option2">Gift Tag (Limited Text) Free</label>
+                  <input type="radio" id="option3" name="properties[Choose an option]" value="Gift Scroll (Unlimited Text) $4.00">
+                  <label for="option3">Gift Scroll (Unlimited Text) $4.00</label>
 	
         	{% endif %}	
           {%- when 'price' -%}
