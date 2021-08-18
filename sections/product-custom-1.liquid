@@ -92,11 +92,11 @@
                 <input required type="radio" name="properties[Choose an option]" value="Option 3"> <span>Gift Scroll (Unlimited Text) $4.00</span><br>
                 </p> -->
         		  <p>Gift Box</p>
-                  <input type="radio" id="option1" name="properties[Choose an option]" value="No Gift Tag">
+                  <input type="radio" id="option1" name="varioption" value="No Gift Tag" onchange="varaionsChange()">
                   <label for="option1">No Gift Tag</label>
-                  <input type="radio" id="option2" name="properties[Choose an option]" value="Gift Tag (Limited Text) Free">
+                  <input type="radio" id="option2" name="properties[Choose an option]" value="Gift Tag (Limited Text) Free" onchange="varaionsChange()">
                   <label for="option2">Gift Tag (Limited Text) Free</label>
-                  <input type="radio" id="option3" name="properties[Choose an option]" value="Gift Scroll (Unlimited Text) $4.00">
+                  <input type="radio" id="option3" name="properties[Choose an option]" value="Gift Scroll (Unlimited Text) $4.00" onchange="varaionsChange()">
                   <label for="option3">Gift Scroll (Unlimited Text) $4.00</label>
 	
         	{% endif %}	
@@ -472,7 +472,11 @@
   customElements.define('product-modal', ProductModal);
 {% endjavascript %}
 
-
+<script>
+  function varaionsChange(e){
+     console.log(e.target.value);
+  }
+</script>
 {%- if first_3d_model -%}
   <script type="application/json" id="ProductJSON-{{ product.id }}">
     {{ product.media | where: 'media_type', 'model' | json }}
