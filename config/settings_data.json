@@ -107,6 +107,12 @@
             "settings": {
             }
           },
+          "9239b40a-6c2d-4fad-b793-27727e480335": {
+            "type": "variations",
+            "settings": {
+              "variations": false
+            }
+          },
           "55392be4-5799-4702-9bf7-9ee6cb4f7cb0": {
             "type": "price",
             "settings": {
@@ -152,6 +158,7 @@
         "block_order": [
           "42c0cea2-f60a-4872-a772-225ba7c535d4",
           "4d90ce2d-ed38-439d-a316-db69d870c4a5",
+          "9239b40a-6c2d-4fad-b793-27727e480335",
           "55392be4-5799-4702-9bf7-9ee6cb4f7cb0",
           "229798a2-0714-405e-98ee-da244cf7abaf",
           "5422947f-e07a-4a56-8585-f4ac26974050",
