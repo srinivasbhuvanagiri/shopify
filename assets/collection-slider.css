@@ -1,0 +1,20 @@
+/*desktop slider start*/
+@media screen and (min-width:990px){
+  .slider-desktop-gutter .slider--desktop {
+      position: relative;
+      flex-wrap: inherit;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+      scroll-padding-left: 1rem;
+      -webkit-overflow-scrolling: touch;
+    }
+    .slider-desktop-gutter .slider-buttons{
+    display:block !important;
+      top:-85px;
+  }
+  .slider-desktop-gutter .slider-buttons-desktop{
+  	display:none !important;
+  }  
+}
+/*desktop slider ends*/
