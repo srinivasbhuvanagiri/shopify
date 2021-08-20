@@ -120,22 +120,24 @@
           {%- when 'quantity_selector' -%}
             <div class="product-form__input product-form__quantity" {{ block.shopify_attributes }}>
             <!-- adding line items  -->
-                  {%- if product.tags contains 'pinfel' -%}
-                    <div class="product-form__input product-form__input--dropdown product-form__pinfel">
+                 <div>
+                    <style>
+                        .product__info-container--sticky {
+                        position: static !important;
+                        }
+                    </style>
                     <label class="form__label" for="pinfel-select">Pinfel pack</label>
                     <div class="select" id="pinfel-select">
-                    <select required class="select__select required" id="pinfel" data-type="pinfel-select">
-                    <option class="fruta" value="Fruta">{{ 'products.product.fruit' | t }}</option>
-                    <option class="jogos" value="Jogos">{{ 'products.product.games' | t }}</option>
-                    <option class="rock" value="Rock">Rock</option>
-                    <option class="espaco" value="Espaço">{{ 'products.product.space' | t }}</option>
-                    </select>
-                    {% render 'icon-caret' %}
+                        <select required class="select__select required" id="pinfel">
+                          <option class="fruta" value="Fruta">{{ 'products.product.fruit' | t }}</option>
+                          <option class="jogos" value="Jogos">{{ 'products.product.games' | t }}</option>
+                          <option class="rock" value="Rock">Rock</option>
+                          <option class="espaco" value="Espaço">{{ 'products.product.space' | t }}</option>
+                        </select>
+                        {% render 'icon-caret' %}
                     </div>
-                    </div>
-                  {%- else -%}
-                    <span value="0" data-type="pinfel-select"></span>
-                  {%- endif -%}
+                  </div>
+                  </div>
             <!--add line items --->
               <label class="form__label" for="Quantity-{{ section.id }}">
                 {{ 'products.product.quantity.label' | t }}
