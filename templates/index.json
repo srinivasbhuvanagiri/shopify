@@ -218,6 +218,41 @@
         "full_width": true,
         "caption": "Make Easy Chocolate Truffles with Kate Shaffer"
       }
+    },
+    "1629450545f0393310": {
+      "type": "rich-text",
+      "blocks": {
+        "1629450545f0393310-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "1629450545f0393310-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1629450545f0393310-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1629450545f0393310-0",
+        "1629450545f0393310-1",
+        "1629450545f0393310-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true
+      }
     }
   },
   "order": [
@@ -228,6 +263,7 @@
     "1629449658f632f22f",
     "1629449693c998ace6",
     "collage",
-    "1629449306f75a93f1"
+    "1629449306f75a93f1",
+    "1629450545f0393310"
   ]
 }
