@@ -195,6 +195,63 @@
         "show_image_outline": true,
         "show_vendor": true
       }
+    },
+    "1629449493fcca512d": {
+      "type": "collection-list",
+      "blocks": {
+        "1629449493fcca512d-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chocolate-caramels"
+          }
+        },
+        "1629449493fcca512d-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chocolate-truffles"
+          }
+        },
+        "1629449493fcca512d-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chocolate-bark"
+          }
+        },
+        "adac1c71-ba1f-4db3-8f96-3d830add59dc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "business-gifts"
+          }
+        },
+        "33f0f962-a280-4ab1-922e-00d3ceadd87d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "2021-summer"
+          }
+        },
+        "7b3e336a-d191-435c-88a0-867c188fc5dd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "drinking-chocolate"
+          }
+        }
+      },
+      "block_order": [
+        "1629449493fcca512d-0",
+        "1629449493fcca512d-1",
+        "1629449493fcca512d-2",
+        "adac1c71-ba1f-4db3-8f96-3d830add59dc",
+        "33f0f962-a280-4ab1-922e-00d3ceadd87d",
+        "7b3e336a-d191-435c-88a0-867c188fc5dd"
+      ],
+      "settings": {
+        "title": "Shop By Category",
+        "image_ratio": "adapt",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": true,
+        "image_padding": false,
+        "show_view_all": true
+      }
     }
   },
   "order": [
@@ -205,6 +262,7 @@
     "video",
     "multi_column",
     "1629449306f75a93f1",
-    "1629449377cf94654f"
+    "1629449377cf94654f",
+    "1629449493fcca512d"
   ]
 }
