@@ -120,11 +120,9 @@
           {%- when 'quantity_selector' -%}
             <div class="product-form__input product-form__quantity" {{ block.shopify_attributes }}>
             <!-- adding line items  -->
-                                <p class="line-item-property__field">
-                  <label>Gift options</label><br>
-                  <input required class="required" type="radio" name="properties[Gift options]" value="No Gift Tag"> <span>No Gift Tag</span><br>
-                  <input required class="required" type="radio" name="properties[Gift options]" value="Gift Tag (Limited Text) Free"> <span>Gift Tag (Limited Text) Free</span><br>
-                  <input required class="required" type="radio" name="properties[Gift options]" value="Gift Scroll (Unlimited Text) $4.00"> <span>Gift Scroll (Unlimited Text) $4.00</span><br>
+                <p class="line-item-property__field">
+                  <label for="your-name">Your name</label>
+                  <input id="your-name" type="text" name="properties[Your name]">
                 </p>
             <!--add line items --->
               <label class="form__label" for="Quantity-{{ section.id }}">
