@@ -10,8 +10,7 @@ class ProductForm extends HTMLElement {
   onSubmitHandler(evt) {
     evt.preventDefault();
     this.itemProperty = document.querySelector('[data-type="pinfel-select"]');
-    this.cartNotification.setActiveElement(document.activeElement);
-
+    
     this.cartNotification.setActiveElement(document.activeElement);
     
     const submitButton = this.querySelector('[type="submit"]');

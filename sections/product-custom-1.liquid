@@ -86,6 +86,25 @@
          {%- when 'variations' -%}
          	{% if block.settings.variations != blank %}
 
+             <!-- adding line items  -->
+            {%- if product.tags contains 'pinfel' -%}
+                <div class="product-form__input product-form__input--dropdown product-form__pinfel">
+                <label class="form__label" for="pinfel-select">Pinfel pack</label>
+                <div class="select" id="pinfel-select">
+                <select required class="select__select required" id="pinfel" data-type="pinfel-select">
+                <option class="fruta" value="Fruta">{{ 'products.product.fruit' | t }}</option>
+                <option class="jogos" value="Jogos">{{ 'products.product.games' | t }}</option>
+                <option class="rock" value="Rock">Rock</option>
+                <option class="espaco" value="Espaço">{{ 'products.product.space' | t }}</option>
+                </select>
+                {% render 'icon-caret' %}
+                </div>
+                </div>
+                {%- else -%}
+                <span value="0" data-type="pinfel-select"></span>
+                {%- endif -%}
+            <!--add line items --->
+
 				<p class="line-item-property__field">
 <!-- 				<p class="line-item-property__field">
 
@@ -160,9 +179,6 @@
             </div>
           {%- when 'quantity_selector' -%}
             <div class="product-form__input product-form__quantity" {{ block.shopify_attributes }}>
-              <!--options-->
-					<input class="text" value=""  type="text" id="custom_name" name="properties[Custom Name]" /> 
-			 <!-- options -->
               <label class="form__label" for="Quantity-{{ section.id }}">
                 {{ 'products.product.quantity.label' | t }}
               </label>
