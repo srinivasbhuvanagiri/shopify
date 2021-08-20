@@ -32,62 +32,13 @@
         "adapt_height_first_image": false
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
-    "featured_products": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "collection": "all",
-        "products_to_show": 4,
-        "show_view_all": true,
-        "swipe_on_mobile": false,
-        "image_ratio": "square",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false
-      }
-    },
     "collage": {
       "type": "collage",
       "blocks": {
         "video": {
           "type": "video",
           "settings": {
+            "cover_image": "shopify:\/\/shop_images\/vide_image.jpg",
             "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "description": "Describe the video for customers using screen readers",
             "image_padding": false
@@ -96,8 +47,8 @@
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
-            "secondary_background": false,
+            "product": "chocolate-bark-collection",
+            "secondary_background": true,
             "second_image": false,
             "image_padding": false
           }
@@ -105,7 +56,7 @@
         "collection": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "business-gifts",
             "image_padding": false,
             "color_scheme": "background-1"
           }
@@ -286,8 +237,6 @@
   },
   "order": [
     "image_banner",
-    "rich_text",
-    "featured_products",
     "collage",
     "video",
     "multi_column",
