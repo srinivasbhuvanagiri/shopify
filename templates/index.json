@@ -202,8 +202,8 @@
         "1629449866e149f1b9-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Read More",
+            "button_link": "shopify:\/\/pages\/about-us"
           }
         }
       },
