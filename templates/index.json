@@ -183,6 +183,41 @@
         "full_width": true,
         "caption": "Chocolate For Beginners Starter Gift Box"
       }
+    },
+    "1629449866e149f1b9": {
+      "type": "image-with-text",
+      "blocks": {
+        "1629449866e149f1b9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story"
+          }
+        },
+        "1629449866e149f1b9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In 2007, at the edge of a misty forest on the tiny Maine island of Isle au Haut, our chocolate company twinkled into existence. For eight years, Kate Shaffer made exquisite confections in her home kitchen<\/p>"
+          }
+        },
+        "1629449866e149f1b9-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1629449866e149f1b9-0",
+        "1629449866e149f1b9-1",
+        "1629449866e149f1b9-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/steve_kate_large_46b5643f-0bd0-45d1-b08e-82ba98f7c702.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
@@ -192,6 +227,7 @@
     "1629449658f632f22f",
     "1629449693c998ace6",
     "collage",
-    "1629449306f75a93f1"
+    "1629449306f75a93f1",
+    "1629449866e149f1b9"
   ]
 }
