@@ -17,6 +17,7 @@ class ProductForm extends HTMLElement {
     submitButton.classList.add('loading');
 
     const body = JSON.stringify({
+      properties: { Pinfel: $('#pinfel-select select').val() },
       ...JSON.parse(serializeForm(this.form)),
       sections: this.cartNotification.getSectionsToRender().map((section) => section.id),
       sections_url: window.location.pathname
