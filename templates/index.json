@@ -180,6 +180,21 @@
         "full_width": true,
         "caption": "Make Easy Chocolate Truffles with Kate Shaffer"
       }
+    },
+    "1629449377cf94654f": {
+      "type": "collection-slider",
+      "settings": {
+        "title": "Best Seller",
+        "collection": "best-selling",
+        "products_to_show": 12,
+        "show_view_all": false,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true
+      }
     }
   },
   "order": [
@@ -189,6 +204,7 @@
     "collage",
     "video",
     "multi_column",
-    "1629449306f75a93f1"
+    "1629449306f75a93f1",
+    "1629449377cf94654f"
   ]
 }
