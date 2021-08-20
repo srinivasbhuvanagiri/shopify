@@ -17,10 +17,10 @@ class ProductForm extends HTMLElement {
     submitButton.classList.add('loading');
 
     const body = JSON.stringify({
-      properties: { pinfel: document.getElementById('pinfel-select select').value },
       ...JSON.parse(serializeForm(this.form)),
       sections: this.cartNotification.getSectionsToRender().map((section) => section.id),
-      sections_url: window.location.pathname
+      sections_url: window.location.pathname,
+      properties: { pinfel: document.getElementById('pinfel-select select').value }
     });
 
     fetch(`${routes.cart_add_url}`, { ...fetchConfig('javascript'), body })
