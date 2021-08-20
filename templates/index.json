@@ -32,106 +32,6 @@
         "adapt_height_first_image": false
       }
     },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "video": {
-          "type": "video",
-          "settings": {
-            "cover_image": "shopify:\/\/shop_images\/vide_image.jpg",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video for customers using screen readers",
-            "image_padding": false
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "chocolate-bark-collection",
-            "secondary_background": true,
-            "second_image": false,
-            "image_padding": false
-          }
-        },
-        "collection": {
-          "type": "collection",
-          "settings": {
-            "collection": "business-gifts",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        }
-      },
-      "block_order": [
-        "video",
-        "product",
-        "collection"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false
-      }
-    },
-    "multi_column": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
-    },
-    "1629449306f75a93f1": {
-      "type": "background-img",
-      "settings": {
-        "color_scheme": "background-1",
-        "image": "shopify:\/\/shop_images\/vide_image.jpg",
-        "full_width": true,
-        "caption": "Make Easy Chocolate Truffles with Kate Shaffer"
-      }
-    },
     "1629449377cf94654f": {
       "type": "collection-slider",
       "settings": {
@@ -233,17 +133,65 @@
         "show_image_outline": true,
         "show_vendor": true
       }
+    },
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "video": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify:\/\/shop_images\/vide_image.jpg",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video for customers using screen readers",
+            "image_padding": false
+          }
+        },
+        "product": {
+          "type": "product",
+          "settings": {
+            "product": "chocolate-bark-collection",
+            "secondary_background": true,
+            "second_image": false,
+            "image_padding": false
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "collection": "business-gifts",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "video",
+        "product",
+        "collection"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "1629449306f75a93f1": {
+      "type": "background-img",
+      "settings": {
+        "color_scheme": "background-1",
+        "image": "shopify:\/\/shop_images\/vide_image.jpg",
+        "full_width": true,
+        "caption": "Make Easy Chocolate Truffles with Kate Shaffer"
+      }
     }
   },
   "order": [
     "image_banner",
-    "collage",
-    "video",
-    "multi_column",
-    "1629449306f75a93f1",
     "1629449377cf94654f",
     "1629449493fcca512d",
     "1629449658f632f22f",
-    "1629449693c998ace6"
+    "1629449693c998ace6",
+    "collage",
+    "1629449306f75a93f1"
   ]
 }
