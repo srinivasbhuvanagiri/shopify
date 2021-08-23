@@ -20,7 +20,7 @@ class ProductForm extends HTMLElement {
 
     const body = JSON.stringify({
       properties: { Pinfel: this.itemProperty.value },
-      ...JSON.parse(serializeForm(this.form)),
+      // ...JSON.parse(serializeForm(this.form)),
       sections: this.cartNotification.getSectionsToRender().map((section) => section.id),
       sections_url: window.location.pathname,
     });
