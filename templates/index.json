@@ -252,21 +252,13 @@
         "1630318013adf49687-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "2021-summer"
-          }
-        },
-        "1630318013adf49687-2": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": ""
+            "collection": "business-gifts"
           }
         }
       },
       "block_order": [
         "1630318013adf49687-0",
-        "1630318013adf49687-1",
-        "1630318013adf49687-2"
+        "1630318013adf49687-1"
       ],
       "settings": {
         "title": "Seasonal & New Arrivals",
