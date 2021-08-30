@@ -111,6 +111,56 @@
         "show_view_all": true
       }
     },
+    "1630318047c9997ea2": {
+      "type": "collection-list",
+      "blocks": {
+        "1630318047c9997ea2-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "2021-summer"
+          }
+        },
+        "1630318047c9997ea2-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "business-gifts"
+          }
+        },
+        "1630318047c9997ea2-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chocolate-bark"
+          }
+        },
+        "9e3e059f-77ca-4a86-9d7f-8ac023d0265b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "drinking-chocolate"
+          }
+        },
+        "e4022fc3-73c8-4885-aa91-6492d20d5679": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vegan-dairy-free-chocolate"
+          }
+        }
+      },
+      "block_order": [
+        "1630318047c9997ea2-0",
+        "1630318047c9997ea2-1",
+        "1630318047c9997ea2-2",
+        "9e3e059f-77ca-4a86-9d7f-8ac023d0265b",
+        "e4022fc3-73c8-4885-aa91-6492d20d5679"
+      ],
+      "settings": {
+        "title": "Special Occasion And Holidays",
+        "image_ratio": "square",
+        "color_scheme": "background-2",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
     "1629449693c998ace6": {
       "type": "featured-collection",
       "settings": {
@@ -246,54 +296,46 @@
         "full_width": true
       }
     },
-    "1630318047c9997ea2": {
-      "type": "collection-list",
+    "1630319933c8e65ab6": {
+      "type": "multicolumn",
       "blocks": {
-        "1630318047c9997ea2-0": {
-          "type": "featured_collection",
+        "1630319933c8e65ab6-0": {
+          "type": "column",
           "settings": {
-            "collection": "2021-summer"
+            "image": "shopify:\/\/shop_images\/Banner-img.png",
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
-        "1630318047c9997ea2-1": {
-          "type": "featured_collection",
+        "1630319933c8e65ab6-1": {
+          "type": "column",
           "settings": {
-            "collection": "business-gifts"
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
-        "1630318047c9997ea2-2": {
-          "type": "featured_collection",
+        "1630319933c8e65ab6-2": {
+          "type": "column",
           "settings": {
-            "collection": "chocolate-bark"
-          }
-        },
-        "9e3e059f-77ca-4a86-9d7f-8ac023d0265b": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "drinking-chocolate"
-          }
-        },
-        "e4022fc3-73c8-4885-aa91-6492d20d5679": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "vegan-dairy-free-chocolate"
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         }
       },
       "block_order": [
-        "1630318047c9997ea2-0",
-        "1630318047c9997ea2-1",
-        "1630318047c9997ea2-2",
-        "9e3e059f-77ca-4a86-9d7f-8ac023d0265b",
-        "e4022fc3-73c8-4885-aa91-6492d20d5679"
+        "1630319933c8e65ab6-0",
+        "1630319933c8e65ab6-1",
+        "1630319933c8e65ab6-2"
       ],
       "settings": {
-        "title": "Special Occasion And Holidays",
-        "image_ratio": "square",
-        "color_scheme": "background-2",
-        "swipe_on_mobile": false,
-        "image_padding": false,
-        "show_view_all": false
+        "title": "Multicolumn",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "secondary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
       }
     }
   },
@@ -302,11 +344,12 @@
     "1630318013adf49687",
     "1629449377cf94654f",
     "1629449493fcca512d",
+    "1630318047c9997ea2",
     "1629449693c998ace6",
     "1629449866e149f1b9",
     "collage",
     "1629449306f75a93f1",
     "1629450545f0393310",
-    "1630318047c9997ea2"
+    "1630319933c8e65ab6"
   ]
 }
