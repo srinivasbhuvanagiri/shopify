@@ -140,21 +140,6 @@
         "layout": "image_first"
       }
     },
-    "1629449658f632f22f": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Seasonal And New Arrivals",
-        "collection": "2021-summer",
-        "products_to_show": 12,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": true
-      }
-    },
     "1629449693c998ace6": {
       "type": "featured-collection",
       "settings": {
@@ -261,7 +246,6 @@
     "1629449377cf94654f",
     "1629449493fcca512d",
     "1629449866e149f1b9",
-    "1629449658f632f22f",
     "1629449693c998ace6",
     "collage",
     "1629449306f75a93f1",
