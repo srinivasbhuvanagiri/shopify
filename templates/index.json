@@ -338,6 +338,15 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "1630327758ff61a8f9": {
+      "type": "background-img",
+      "settings": {
+        "color_scheme": "background-1",
+        "image": "shopify:\/\/shop_images\/mobilebanner.png",
+        "full_width": true,
+        "caption": ""
+      }
     }
   },
   "order": [
@@ -351,6 +360,7 @@
     "collage",
     "1629449306f75a93f1",
     "1629450545f0393310",
-    "1630319933c8e65ab6"
+    "1630319933c8e65ab6",
+    "1630327758ff61a8f9"
   ]
 }
