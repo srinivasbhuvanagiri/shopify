@@ -59,8 +59,8 @@
           "settings": {
             "heading": "Product Details",
             "content": "<p>{{ product.metafields.descriptors.care_guide | metafield_tag }}<\/p>",
-            "page": "about-us",
-            "icon": "box"
+            "page": "",
+            "icon": "star"
           }
         }
       },
