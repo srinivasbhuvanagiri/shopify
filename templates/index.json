@@ -11,6 +11,16 @@
         "adapt_height_first_image": true
       }
     },
+    "16303307393b7d34c3": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mobilebanner.png",
+        "desktop_text_box_position": "center",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
+    },
     "1630318013adf49687": {
       "type": "collection-list",
       "blocks": {
@@ -338,20 +348,11 @@
         "full_width": true,
         "caption": ""
       }
-    },
-    "16303307393b7d34c3": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/mobilebanner.png",
-        "desktop_text_box_position": "center",
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
-      }
     }
   },
   "order": [
     "image_banner",
+    "16303307393b7d34c3",
     "1630318013adf49687",
     "1629449377cf94654f",
     "1629449493fcca512d",
@@ -361,7 +362,6 @@
     "collage",
     "1629450545f0393310",
     "1630319933c8e65ab6",
-    "1630327758ff61a8f9",
-    "16303307393b7d34c3"
+    "1630327758ff61a8f9"
   ]
 }
