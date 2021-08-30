@@ -53,6 +53,15 @@
           "type": "share",
           "settings": {
           }
+        },
+        "9b052fe7-0d29-442c-a41c-e3df01fb8f23": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Product Details",
+            "content": "",
+            "page": "",
+            "icon": "check_mark"
+          }
         }
       },
       "block_order": [
@@ -64,7 +73,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "9b052fe7-0d29-442c-a41c-e3df01fb8f23"
       ],
       "settings": {
         "enable_sticky_info": false,
