@@ -60,7 +60,7 @@
             "heading": "Product Details",
             "content": "<p>{{ product.metafields.descriptors.care_guide | metafield_tag }}<\/p>",
             "page": "",
-            "icon": "check_mark"
+            "icon": "box"
           }
         }
       },
