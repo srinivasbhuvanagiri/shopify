@@ -3,8 +3,8 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/mobilebanner.png",
-        "image_2": "shopify:\/\/shop_images\/Gift-img.png",
+        "image": "shopify:\/\/shop_images\/Banner-img_678ac313-dea3-49f2-b71a-fc5399271e64.png",
+        "image_2": "shopify:\/\/shop_images\/Gift-img_7198483c-ebff-49b9-80cb-94cf2361604e.png",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
