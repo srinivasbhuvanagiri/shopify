@@ -2,35 +2,41 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/a-barista-smiles-proudly-stood-in-her-cafe.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "adapt_height_first_image": false
+      }
+    },
+    "1630318013adf49687": {
+      "type": "collection-list",
+      "blocks": {
+        "1630318013adf49687-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "2021-summer"
+          }
+        },
+        "1630318013adf49687-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "business-gifts"
+          }
+        }
+      },
+      "block_order": [
+        "1630318013adf49687-0",
+        "1630318013adf49687-1"
+      ],
+      "settings": {
+        "title": "Seasonal & New Arrivals",
+        "image_ratio": "adapt",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": true,
+        "image_padding": false,
+        "show_view_all": false
       }
     },
     "1629449377cf94654f": {
@@ -42,10 +48,10 @@
         "show_view_all": false,
         "swipe_on_mobile": true,
         "image_ratio": "square",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "add_image_padding": false,
         "show_image_outline": true,
-        "show_vendor": true
+        "show_vendor": false
       }
     },
     "1629449493fcca512d": {
@@ -105,6 +111,21 @@
         "show_view_all": true
       }
     },
+    "1629449693c998ace6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Business Gifts",
+        "collection": "business-gifts",
+        "products_to_show": 8,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true
+      }
+    },
     "1629449866e149f1b9": {
       "type": "image-with-text",
       "blocks": {
@@ -138,21 +159,6 @@
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
-      }
-    },
-    "1629449693c998ace6": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Business Gifts",
-        "collection": "business-gifts",
-        "products_to_show": 8,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": true
       }
     },
     "collage": {
@@ -240,31 +246,52 @@
         "full_width": true
       }
     },
-    "1630318013adf49687": {
+    "1630318047c9997ea2": {
       "type": "collection-list",
       "blocks": {
-        "1630318013adf49687-0": {
+        "1630318047c9997ea2-0": {
           "type": "featured_collection",
           "settings": {
             "collection": "2021-summer"
           }
         },
-        "1630318013adf49687-1": {
+        "1630318047c9997ea2-1": {
           "type": "featured_collection",
           "settings": {
             "collection": "business-gifts"
           }
+        },
+        "1630318047c9997ea2-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chocolate-bark"
+          }
+        },
+        "9e3e059f-77ca-4a86-9d7f-8ac023d0265b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "drinking-chocolate"
+          }
+        },
+        "e4022fc3-73c8-4885-aa91-6492d20d5679": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vegan-dairy-free-chocolate"
+          }
         }
       },
       "block_order": [
-        "1630318013adf49687-0",
-        "1630318013adf49687-1"
+        "1630318047c9997ea2-0",
+        "1630318047c9997ea2-1",
+        "1630318047c9997ea2-2",
+        "9e3e059f-77ca-4a86-9d7f-8ac023d0265b",
+        "e4022fc3-73c8-4885-aa91-6492d20d5679"
       ],
       "settings": {
-        "title": "Seasonal & New Arrivals",
-        "image_ratio": "adapt",
-        "color_scheme": "background-1",
-        "swipe_on_mobile": true,
+        "title": "Special Occasion And Holidays",
+        "image_ratio": "square",
+        "color_scheme": "background-2",
+        "swipe_on_mobile": false,
         "image_padding": false,
         "show_view_all": false
       }
@@ -272,13 +299,14 @@
   },
   "order": [
     "image_banner",
+    "1630318013adf49687",
     "1629449377cf94654f",
     "1629449493fcca512d",
-    "1629449866e149f1b9",
     "1629449693c998ace6",
+    "1629449866e149f1b9",
     "collage",
     "1629449306f75a93f1",
     "1629450545f0393310",
-    "1630318013adf49687"
+    "1630318047c9997ea2"
   ]
 }
