@@ -59,7 +59,7 @@
           "settings": {
             "heading": "Product Details",
             "content": "<p>{{ product.metafields.descriptors.care_guide | metafield_tag }}<\/p>",
-            "page": "",
+            "page": "about-us",
             "icon": "box"
           }
         }
