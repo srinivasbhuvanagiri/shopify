@@ -289,7 +289,7 @@
       ],
       "settings": {
         "title": "Special Occasion And Holidays",
-        "image_ratio": "square",
+        "image_ratio": "adapt",
         "color_scheme": "background-2",
         "swipe_on_mobile": false,
         "image_padding": false,
