@@ -67,9 +67,9 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Ingredients",
-            "content": "",
+            "content": "<p>{{ product.metafields.my_fields.ingredients | metafield_tag }}<\/p>",
             "page": "",
-            "icon": "check_mark"
+            "icon": "question_mark"
           }
         }
       },
