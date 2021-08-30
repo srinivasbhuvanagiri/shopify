@@ -7,6 +7,24 @@
         "show_collection_image": true
       }
     },
+    "1630322296a31bdc80": {
+      "type": "rich-text",
+      "blocks": {
+        "1630322296a31bdc80-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Think summer camp...with chocolate. S'mores Kits, Snack Packs, chocolate fish and lobsters, and delicious reading from the state that is...<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1630322296a31bdc80-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -20,10 +38,30 @@
         "enable_sorting": true,
         "collapse_on_larger_devices": false
       }
+    },
+    "1630322505d9efa883": {
+      "type": "rich-text",
+      "blocks": {
+        "1630322505d9efa883-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Think summer camp...with chocolate. S'mores Kits, Snack Packs, chocolate fish and lobsters, and delicious reading from the state that is...<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1630322505d9efa883-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "1630322296a31bdc80",
+    "product-grid",
+    "1630322505d9efa883"
   ]
 }
