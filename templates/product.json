@@ -3,6 +3,11 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -10,20 +15,8 @@
             "text_style": "uppercase"
           }
         },
-        "title": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "subtitle": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "price": {
-          "type": "price",
+        "description": {
+          "type": "description",
           "settings": {
           }
         },
@@ -38,20 +31,15 @@
           "settings": {
           }
         },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
           }
         },
         "9b052fe7-0d29-442c-a41c-e3df01fb8f23": {
@@ -80,21 +68,25 @@
             "page": "",
             "icon": "none"
           }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+          }
         }
       },
       "block_order": [
-        "vendor",
         "title",
-        "subtitle",
-        "price",
+        "vendor",
+        "description",
         "variant_picker",
         "quantity_selector",
+        "price",
         "buy_buttons",
-        "description",
-        "share",
         "9b052fe7-0d29-442c-a41c-e3df01fb8f23",
         "70300782-daf0-4860-b2d7-1a964bd4c459",
-        "fb0ea14f-fe91-4223-9486-99a26e4f79cb"
+        "fb0ea14f-fe91-4223-9486-99a26e4f79cb",
+        "share"
       ],
       "settings": {
         "enable_sticky_info": false,
