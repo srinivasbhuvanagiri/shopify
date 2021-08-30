@@ -62,6 +62,15 @@
             "page": "",
             "icon": "star"
           }
+        },
+        "70300782-daf0-4860-b2d7-1a964bd4c459": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ingredients",
+            "content": "",
+            "page": "",
+            "icon": "check_mark"
+          }
         }
       },
       "block_order": [
@@ -74,7 +83,8 @@
         "buy_buttons",
         "description",
         "share",
-        "9b052fe7-0d29-442c-a41c-e3df01fb8f23"
+        "9b052fe7-0d29-442c-a41c-e3df01fb8f23",
+        "70300782-daf0-4860-b2d7-1a964bd4c459"
       ],
       "settings": {
         "enable_sticky_info": false,
