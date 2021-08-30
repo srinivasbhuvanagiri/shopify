@@ -69,7 +69,7 @@
             "heading": "Ingredients",
             "content": "<p>{{ product.metafields.my_fields.ingredients | metafield_tag }}<\/p>",
             "page": "",
-            "icon": "question_mark"
+            "icon": "none"
           }
         }
       },
