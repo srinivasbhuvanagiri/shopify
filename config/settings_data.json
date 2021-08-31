@@ -4,6 +4,7 @@
     "colors_accent_1": "#daa520",
     "colors_accent_2": "#f4f4f4",
     "colors_text": "#020202",
+    "colors_outline_button_labels": "#445958",
     "colors_background_2": "#ffffff",
     "type_header_font": "cabin_n6",
     "type_body_font": "roboto_n4",
