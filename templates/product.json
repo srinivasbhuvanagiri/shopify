@@ -1,5 +1,11 @@
 {
   "sections": {
+    "1630387986118e7c22": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -106,6 +112,7 @@
     }
   },
   "order": [
+    "1630387986118e7c22",
     "main",
     "product-recommendations"
   ]
