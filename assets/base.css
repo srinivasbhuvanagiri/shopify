@@ -224,6 +224,11 @@ body,
   color: rgba(var(--color-foreground), 0.75);
   background-color: rgb(var(--color-background));
 }
+/**/
+.color-custombuttom {
+  --color-foreground: var(--color-base-solid-button-labels);
+  --color-background: var(--color-base-solid-custombutton-labels);
+}
 
 .background-secondary {
   background-color: rgba(var(--color-foreground), 0.04);
