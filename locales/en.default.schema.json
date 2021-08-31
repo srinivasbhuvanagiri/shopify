@@ -20,9 +20,6 @@
         "header__2": {
           "content": "Secondary colors"
         },
-        "header__3": {
-          "content": "Custom Button colors"
-        },
         "colors_text": {
           "label": "Text",
           "info": "Used as foreground color on background colors."
@@ -36,6 +33,9 @@
         },
         "colors_background_2": {
           "label": "Background 2"
+        },
+        "header__3": {
+          "content": "Custom Button colors"
         }
       }
     },

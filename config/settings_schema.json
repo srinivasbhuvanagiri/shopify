@@ -67,6 +67,13 @@
       {
         "type": "header",
         "content": "t:settings_schema.colors.settings.header__3.content"
+      },
+      {
+        "type": "color",
+        "id": "colors_text",
+        "default": "#1A1B18",
+        "label": "t:settings_schema.colors.settings.colors_text.label",
+        "info": "t:settings_schema.colors.settings.colors_text.info"
       }
     ]
   },
