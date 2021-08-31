@@ -27,7 +27,7 @@
 /**/
 .color-custombutton {
   --color-foreground: var(--color-base-solid-button-labels);
-  --color-background: var(--color-base-solid-custombutton-labels);
+  --color-background: var(--color-base-solid-button-customlabels);
 }
 /**/
 .color-foreground-outline-button {
