@@ -36,6 +36,10 @@
         },
         "header__3": {
           "content": "Custom Button colors"
+        },
+        "colors_solid_custombutton_labels" : {
+          "label": "custom button color",
+          "info": "used as acustom button background"
         }
       }
     },

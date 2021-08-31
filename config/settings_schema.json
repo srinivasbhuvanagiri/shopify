@@ -70,10 +70,10 @@
       },
       {
         "type": "color",
-        "id": "colors_text",
-        "default": "#1A1B18",
-        "label": "t:settings_schema.colors.settings.colors_text.label",
-        "info": "t:settings_schema.colors.settings.colors_text.info"
+        "id": "colors_solid_custombutton_labels",
+        "default": "#FFFFFF",
+        "label": "t:settings_schema.colors.settings.colors_solid_custombutton_labels.label",
+        "info": "t:settings_schema.colors.settings.colors_solid_custombutton_labels.info"
       }
     ]
   },
