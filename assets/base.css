@@ -22,8 +22,7 @@
 
 .color-accent-2 {
   --color-foreground: var(--color-base-solid-button-labels);
-  /* --color-background: var(--color-base-accent-2); */
-  --color-background: var(--color-base-solid-custombutton-labels);
+   --color-background: var(--color-base-accent-2); 
 }
 /**/
 .color-custombuttom {
@@ -225,7 +224,13 @@ body,
   color: rgba(var(--color-foreground), 0.75);
   background-color: rgb(var(--color-background));
 }
-
+/**/
+body,
+.color-custombuttom {
+  --color-foreground: var(--color-base-solid-button-labels);
+  --color-background: var(--color-base-solid-custombutton-labels);
+}
+/**/
 .background-secondary {
   background-color: rgba(var(--color-foreground), 0.04);
   padding: 4rem 0 5rem;
