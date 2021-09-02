@@ -25,10 +25,10 @@
    --color-background: var(--color-base-accent-2); 
 }
 /**/
-/* .color-custombutton {
+.color-custombutton {
   --color-foreground: var(--color-base-solid-button-labels);
   --color-background: var(--color-base-solid-button-customlabels);
-} */
+} 
 /**/
 .color-foreground-outline-button {
   --color-foreground: var(--color-base-outline-button-labels);
@@ -220,15 +220,12 @@ body,
 .color-background-2,
 .color-inverse,
 .color-accent-1,
-.color-accent-2 {
+.color-accent-2,
+.color-custombutton {
   color: rgba(var(--color-foreground), 0.75);
   background-color: rgb(var(--color-background));
 }
 /**/
-.color-custombutton {
-  --color-foreground: var(--color-base-solid-button-labels);
-  --color-background: var(--color-base-solid-button-customlabels);
-}
 
 .background-secondary {
   background-color: rgba(var(--color-foreground), 0.04);
