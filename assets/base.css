@@ -225,7 +225,6 @@ body,
   background-color: rgb(var(--color-background));
 }
 /**/
-body,
 .color-custombutton {
   --color-foreground: var(--color-base-solid-button-labels);
   --color-background: var(--color-base-solid-button-customlabels);
