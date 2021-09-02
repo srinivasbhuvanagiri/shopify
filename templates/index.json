@@ -218,7 +218,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/steve_kate_large_46b5643f-0bd0-45d1-b08e-82ba98f7c702.jpg",
         "height": "adapt",
-        "color_scheme": "custombutton",
+        "color_scheme": "accent-1",
         "layout": "image_first"
       }
     },
